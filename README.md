@@ -22,7 +22,7 @@ Same here …
 I collected a bunch of libraries under the header *Foundation*; a lot of that stuff is 20 years old now, always updated to the latest language version. The latest and most demanding change was to adoption of modularisation (JigSaw).
 
 ##### *[foundation-base](https://tquadrat.github.io/foundation-base)*
-The base for all the other stuff, also it is not much useful without the *foundation-util* library. But for some tools this is not necessary or just to big, so I separated some functionality into this library.
+The base for all the other stuff, althoug it is not much useful without the *[foundation-util](https://tquadrat.github.io/foundation-util)* library. But for some tools this is not necessary or just to big, so I separated some functionality into this library.
 
 ##### *[foundation-util](https://tquadrat.github.io/foundation-util)*
 Add this library to make the most often used features available to your project.
