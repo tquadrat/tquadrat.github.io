@@ -64,6 +64,9 @@ The definition of the annotations that allow *[foundation-i18n-ap](https://tquad
 ##### *[foundation-inifile](https://tquadrat.github.io/foundation-inifile)*
 The API for the access to Windows-style configuration files (the so-called *INI*-Files).
 
+##### *[foundation-value](https://tquadrat.github.io/foundation-value)*
+The definition of "values" – numbers with dimensions.
+
 ##### *[foundation-xml](https://tquadrat.github.io/foundation-xml)*
 Helpers for the handling of XML files, both generation and parsing.
 
