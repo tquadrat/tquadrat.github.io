@@ -30,7 +30,15 @@ Most of the annotation processors here are meant to work with some of the librar
 Generates resource bundles from annotated Strings; the annotations and some additional tools are defined in *[foundation-i18n](https://tquadrat.github.io/foundation-i18n)*
 
 ##### *[foundation-config-ap](https://tquadrat.github.io/foundation-config-ap)*
-Generates a JavaBean from a *Configuration Bean Specification* that is meant as central repository for the configuration values required by an application. For the details, refer to *[foundation-config](https://tquadrat.github.io/foundation-config)*, the library that defines the necessary annotations and the additional stuff needed. 
+Generates a JavaBean from a *Configuration Bean Specification* that is meant as central repository for the configuration values required by an application. For the details, refer to *[foundation-config](https://tquadrat.github.io/foundation-config)*, the library that defines the necessary annotations and the additional stuff needed.
+
+#### Gradle Plugins
+Some helpers for the build process.
+
+##### *[gitpublisher](https://tquadrat.github.io/gitpublisher)*
+For several reasons, I am using Subversion as the SCM for my projects. But as Git has been established as the standard for publishing projects, and GitHub and Bitbucket – the most often used platforms for publishing this kind of stuff – are uisng Git to keep the data, I decided that I need to make use of Git, too.
+
+The Git Publisher Gradle plugin is the answer: it publishes the files of a project to a (remote) Git repository like Github or BitBucket.
 
 ### Libraries
 Most of my libraries are written as a module. When you use them within a project that does not use modules itself, you may have access to classes that are not meant to be visible outside the library itself. To give you some hints on what is part of the API and what is internal, I use the library [@APIGuardian](https://github.com/apiguardian-team/apiguardian). It provides the annotation `@API` with the attribute `status` that has the value `STABLE` for all classes that can be used safely. This status is inherited to all public elements of a class, although I marked the `static final` members of utility classes individually in most cases. So keep your fingers off from stuff that is marked as `DEPRECATED` or `INTERNAL`, and use stuff marked as `MAINTAINED` or `EXPERIMENTAL` with care.
@@ -67,6 +75,9 @@ A library for the generation of Java source code; basically a fork of JavaPoet.
 
 ##### *[foundation-config](https://tquadrat.github.io/foundation-config)*
 Defines a *Configuration Bean Specification* that allows the generation of a JavaBean that is meant as central repository for the configuration values required by an application (using *[foundation-config-ap](https://tquadrat.github.io/foundation-config-ap)*) It provides various means to load these configuration values (from a resource file, from the Preferences, from a Windows-style configuration file, from the command line) and it can be easily extended to other sources. 
+
+##### *[foundation-fx](https://tquadrat.github.io/foundation-fx)*
+A library with some utilities for the work with JavaFX, plus a few extensions to JavaFX, like an adapter for JavaFX's `StringConverter` to that I created for *Foundation* in `foundation-base`.
 
 ### Other Stuff
 … stay tuned!
