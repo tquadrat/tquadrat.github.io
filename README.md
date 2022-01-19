@@ -16,7 +16,8 @@ I am a big friend of documentation, and in my opinion, most documentation should
 By the way, the JavaDoc provides links to the sources in most cases.
 
 ### Applications
-Not yet much stuff here, but I am working on publishing it soon – after I move the build to Gradle and the code to Java 17.
+#### [The Shooting Timer](https://tquadrat.github.io/shootingtimer)
+A tool that may help with the training for some shooting competitions.
 
 ### Tools
 #### *[foundation-javadoc](https://tquadrat.github.io/foundation-javadoc)*
