@@ -5,11 +5,13 @@ You can pull the artifacts from my projects from this repository
 - [tquadrat's Archiva Repository](http://tquadrat.org/archiva/)
 
 ## My Projects
-I do this stuff only for own pleasure. If you like some of this – have fun! And if you have questions, please feel free to send me an email (to <tquadrat.do@gmail.com>) or you can connect me on Telegram (at @tquadrat_do).
+I do this stuff only for my own pleasure. If you like some of this stuff – have fun! And if you have questions, please feel free to send me an email (to <tquadrat.do@gmail.com>) or you can connect me on Telegram (at @tquadrat_do). If you have a suggestion for an improvement, or if you find a bug, I would be happy to hear from you, too.
 
 I write code mainly in Java, preferred using the latest language version (as of now – 2022-01-04 – this is Java 17) even with the preview features switched on.
 
 To build the code, I am using Gradle (switched to it recently, previously I used Maven).
+
+My target operating system is Linux, and there both PCs and Raspberry PIs, although sometimes I do something for MacOS and/or Windows as well. Ok, when using Java, it usually does not matter which operating system you use, but when JavaFX comes into play (or local files …), this changes. So when some code does not run on your Windows box, it may be because I built it for Linux and never tested it elsewhere. But you can tell me, and I will try to fix it.
 
 I am a big friend of documentation, and in my opinion, most documentation should be placed as close to the code as possible. Therefor it is really helpful that I am also a big fan of JavaDoc (for Java) and related tools (for other languages). So at least for the tools and libraries, most if not all information you need to use them can be found in the JavaDoc reference – as said as close to the code as possible. General information is placed to the overview, in exceptions also in the package overview documents. If you miss something (or the documentation raises more questions than providing answers), please contact me.
 
