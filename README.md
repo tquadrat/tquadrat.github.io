@@ -85,5 +85,8 @@ Defines a *Configuration Bean Specification* that allows the generation of a Jav
 ##### *[foundation-fx](https://tquadrat.github.io/foundation-fx)*
 A library with some utilities for the work with JavaFX, plus a few extensions to JavaFX, like an adapter for JavaFX's `StringConverter` to that I created for *Foundation* in `foundation-base`.
 
+##### *[foundation-mgmt](https://tquadrat.github.io/foundation-mgmt)*
+A library that allows the on-the-fly generation of a DynamicMBean, together with other JMX related stuff.
+
 ### Other Stuff
 … stay tuned!
