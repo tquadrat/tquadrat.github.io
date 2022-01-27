@@ -2,7 +2,7 @@
 
 ## Artifacts Repository
 You can pull the artifacts from my projects from this repository
-- [tquadrat's Archiva Repository](http://tquadrat.org/archiva/)
+- [tquadrat's Archiva Repository](http://www.tquadrat.org/archiva/)
 
 ## My Projects
 I do this stuff only for my own pleasure. If you like some of this stuff – have fun! And if you have questions, please feel free to send me an email (to <tquadrat.do@gmail.com>) or you can connect me on Telegram (at @tquadrat_do). If you have a suggestion for an improvement, or if you find a bug, I would be happy to hear from you, too.
