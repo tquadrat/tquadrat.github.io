@@ -15,7 +15,7 @@ My target operating system is Linux, and there both PCs and Raspberry PIs, altho
 
 I am a big friend of documentation, and in my opinion, most documentation should be placed as close to the code as possible. Therefor it is really helpful that I am also a big fan of JavaDoc (for Java) and related tools (for other languages). So at least for the tools and libraries, most if not all information you need to use them can be found in the JavaDoc reference – as said as close to the code as possible. General information is placed to the overview, in exceptions also in the package overview documents. If you miss something (or the documentation raises more questions than providing answers), please contact me.
 
-By the way, the JavaDoc provides links to the sources in most cases.
+By the way, the JavaDoc provides links to the related source code in most cases.
 
 ### Applications
 #### [The Shooting Timer](https://tquadrat.github.io/shootingtimer)
