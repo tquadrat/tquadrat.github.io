@@ -91,5 +91,8 @@ A library that allows the on-the-fly generation of a DynamicMBean, together with
 ### Other Stuff
 … stay tuned!
 
+#### [Gradle Hacks](stuff/gradleHacks.md)
+Some hacks that may help you with your daily work with Gradle.
+
 #### [JShell Startup Configuration](stuff/jshellConfig.md)
 Pre-load and execute code in JShell on startup.
