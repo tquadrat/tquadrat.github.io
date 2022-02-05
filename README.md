@@ -4,6 +4,44 @@
 You can pull the artifacts from my projects from this repository
 - [tquadrat's Archiva Repository](http://www.tquadrat.org/archiva/)
 
+If you want to make it available in your Gradle build, add these lines:
+
+```groovy
+repositories {
+    //---* Use MavenCentral for other dependencies *---------------------------
+    mavenCentral {
+        content {
+            excludeGroupByRegex "org\\.tquadrat.*"
+        }
+    }
+
+    //---* tquadrat's repository *---------------------------------------------
+    maven {
+        name "tquadratReleases"
+        url "http://www.tquadrat.org/archiva/repository/releases/"
+        content {
+            includeGroupByRegex "org\\.tquadrat.*"
+        }
+        mavenContent {
+            releasesOnly()
+        }
+        allowInsecureProtocol true
+    }
+    maven {
+        name "tquadratSnapshots"
+        url "http://www.tquadrat.org/archiva/repository/snapshots/"
+        content {
+            includeGroupByRegex "org\\.tquadrat.*"
+        }
+        mavenContent {
+            snapshotsOnly()
+        }
+        allowInsecureProtocol true
+    }
+}
+
+```
+
 ## My Projects
 I do this stuff only for my own pleasure. If you like some of this stuff – have fun! And if you have questions, please feel free to send me an email (to <tquadrat.do@gmail.com>) or you can connect me on Telegram (at @tquadrat_do). If you have a suggestion for an improvement, or if you find a bug, I would be happy to hear from you, too.
 
