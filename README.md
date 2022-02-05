@@ -90,3 +90,6 @@ A library that allows the on-the-fly generation of a DynamicMBean, together with
 
 ### Other Stuff
 … stay tuned!
+
+#### [JShell Startup Configuration](stuff/jshellConfig.md)
+Pre-load and execute code in JShell on startup.
