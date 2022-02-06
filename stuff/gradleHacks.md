@@ -74,7 +74,6 @@ To illustrate that, the directory trees for a project with just the class `foo.b
   &vellip;
   └ type-search-index.js 
 </tt></pre></td>
-        </td>
     </tr>
     
 </table>
@@ -83,7 +82,7 @@ Unfortunately, there is no method in Gradle to get the Java module name; ok, the
 
 So I used this method to obtain the module name[^groovy]:
 
-[^groovy]: Sorry, but my Groovy skill are … poor, at best. But of course, the method can be implemented in Groovy, too.
+[^groovy]: Sorry, but my Groovy skills are … poor, at best. But of course, the method can be implemented in Groovy, too.
 
 ```java
 /**
