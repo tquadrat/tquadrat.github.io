@@ -86,23 +86,20 @@ So I used this method to obtain the module name[^groovy]:
 
 ```java
 /**
- *  <P>{@summary Determines the module name of a Java 9 (Jigsaw) module
+ *  Determines the module name of a Java 9 (Jigsaw) module
  *  (don't mix this up with a module as it is defined by Gradle
- *  itself!)}.</p>
- *  <p>The implementation will search the source path for a file with the
- *  name
- *  {@value #MODULE_DEFINITION},
- *  and gets the name of the module from there.</p>
- *  <p>Call this function from your {@code build.gradle} file like
- *  this:</p>
- *  <pre><code>var moduleName = Tools.obtainModuleName( project.sourceSets.main )</code></pre>
+ *  itself!)}.
+ *  The implementation will search the source path for a file with the
+ *  name "module-info.java" and gets the name of the module from there.
+ *  Call this function from your build.gradle file like this:
+ *
+ *      var moduleName = Tools.obtainModuleName( project.sourceSets.main )
  *
  *  @param  sourceSet   The source set for the project.
  *  @return An instance of
  *      {@link Optional}
  *      that holds the name of the module.
  */
-@SuppressWarnings( "ProhibitedExceptionThrown" )
 public static final Optional<String> obtainModuleName( final SourceSet sourceSet )
 {
     Optional<String> retValue = Optional.empty();
