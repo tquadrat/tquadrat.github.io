@@ -93,13 +93,15 @@ I do this stuff only for my own pleasure. If you like some of this stuff – hav
 
 I write code mainly in Java, preferred using the latest language version (as of now – 2022-01-04 – this is Java 17) even with the preview features switched on.
 
-To build the code, I am using Gradle (switched to it recently, previously I used Maven).
+To build the code, I am using Gradle (switched to it just recently, before I used Maven).
+
+And I still prefer Subversion over Git as my SCM. This means that my repositories here on Github are more or less mirrors of those that I really use – perhaps you want to have a look to my [`gitpublisher` Gradle Plugin](#gitpublisher)?
 
 My target operating system is Linux, and there both PCs and Raspberry PIs, although sometimes I do something for MacOS and/or Windows as well. Ok, when using Java, it usually does not matter which operating system you use, but when JavaFX comes into play (or local files …), this changes. So when some code does not run on your Windows box, it may be because I built it for Linux and never tested it elsewhere. But you can tell me, and I will try to fix it.
 
-I am a big friend of documentation, and in my opinion, most documentation should be placed as close to the code as possible. Therefor it is really helpful that I am also a big fan of JavaDoc (for Java) and related tools (for other languages). So at least for the tools and libraries, most if not all information you need to use them can be found in the JavaDoc reference – as said as close to the code as possible. General information is placed to the overview, in exceptions also in the package overview documents. If you miss something (or the documentation raises more questions than providing answers), please contact me.
+I am a big friend of documentation, and in my opinion, most documentation should be placed as close to the code as possible. Therefore it is really helpful that I am also a big fan of JavaDoc (for Java) and related tools (for other languages). So at least for the tools and libraries, most if not all information you need to use them can be found in the JavaDoc reference documents – as said as close to the code as possible. General information is placed to the overview, in exceptions also in the package overview documents. If you miss something (or the documentation raises more questions than providing answers), please contact me.
 
-By the way, the JavaDoc provides links to the related source code in most cases.
+By the way, the generated JavaDoc does also provide links to the related source code in most cases.
 
 ### Applications
 #### [The Shooting Timer](https://tquadrat.github.io/shootingtimer)
@@ -108,6 +110,7 @@ A tool that may help with the training for some shooting competitions.
 ### Tools
 #### *[foundation-javadoc](https://tquadrat.github.io/foundation-javadoc)*
 This is an extension to the standard JavaDoc tool, providing a UML graph, the capability to include arbitray files and some more features. Have a look to the documentation for my other projects to see the results.
+
 You can use this extensions in your project quite easy, I stripped down the dependencies as far as possible.
 
 #### Annotation Processors
