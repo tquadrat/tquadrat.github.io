@@ -107,7 +107,7 @@ By the way, the generated JavaDoc does also provide links to the related source 
 #### [The Shooting Timer](https://tquadrat.github.io/shootingtimer)
 A tool that may help with the training for some shooting competitions.
 
-#### [Bloodpressure Statistics](https://tquadrat.githup.io/bloodpressure)
+#### [Bloodpressure Statistics](https://tquadrat.github.io/bloodpressure)
 A program for the statistical analysis of blood pressure values. Currently quite basic, and running in a terminal only, but I plan to build a GUI for it.
 
 Make your doctor happy and provide him some statistics for you blood pressure data – ok, that requires that you collect them first …
