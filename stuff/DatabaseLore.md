@@ -54,9 +54,9 @@ Of course, `PUBLIC` must be replaced by the proper schema name if the table is n
 
 #### Data Types for Date Values, Time Values, TimeDate Values and TimeStamps
 
-H2 allows the mapping of its datatypes `DATE`, `TIME`, `TIME WITH TIME ZONE`, `TIMESTAMP`, `TIMESTAMP WITHOUT TIME ZONE`, `DATETIME`, `SMALLDATETIME` and `TIMESTAMP WITH TIME ZONE` to the new `java.time` type that were introduced with Java 8 like the table below: 
+H2 allows the mapping of its datatypes `DATE`, `TIME`, `TIME WITH TIME ZONE`, `TIMESTAMP`, `TIMESTAMP WITHOUT TIME ZONE`, `DATETIME`, `SMALLDATETIME` and `TIMESTAMP WITH TIME ZONE` to the new `java.time` types that were introduced with Java 8 like the table below: 
 
-|SQL Type|Java Types|
+|H2 SQL Type|Java Types|
 |--------|----------|
 |`DATE`|`java.sql.Date`, **`java.time.LocalDate`**|
 |`TIME`|`java.sql.Time`, **`java.time.LocalTime`**|
@@ -81,3 +81,45 @@ final PreparedStatement statement = …
 statement.setObject( 7, today ); // for a TIMESTAMP WITH TIME ZONE column
 …
 ```
+
+### PostgreSQL
+
+#### Data Types for Date Values, Time Values, TimeDate Values and TimeStamps
+
+According to the [documentation](https://jdbc.postgresql.org/documentation/head/java8-date-time.html), PostgreSQL does support the new `java.time` types as shown in the table below:
+
+|PostgreSQL™ Type|Java Type|
+|----------------|---------|
+|`DATE`|`java.time.LocalDate`|
+|`TIME` [ `WITHOUT TIME ZONE` ]|`java.time.LocalTime`|
+|`TIMESTAMP` [ `WITHOUT TIME ZONE` ]|`java.time.LocalDateTime`|
+|`TIMESTAMP WITH TIME ZONE`|`java.time.OffsetDateTime`|
+
+This is closely aligned with tables B-4 and B-5 of the JDBC 4.2 specification. It is important that `java.time.ZonedDateTime`, `java.time.Instant` and `java.time.OffsetTime` are not suppported, also not the use of `TIME WITH TIME ZONE` with JDBC. Also note that all `java.time.OffsetDateTime` instances will be in UTC (have offset 00:00). This is because the backend stores them as UTC.
+
+These sample were taken from the PostgreSQL documentation linked above:
+
+##### Reading Java 8 Date and Time values using JDBC
+```Java
+Statement st = conn.createStatement();
+ResultSet rs = st.executeQuery( "SELECT * FROM mytable WHERE columnfoo = 500" );
+while( rs.next() )
+{
+    System.out.print( "Column 1 returned " );
+    LocalDate localDate = rs.getObject( 1, LocalDate.class );
+    System.out.println( localDate );
+}
+rs.close();
+st.close();
+````
+
+##### Writing Java 8 Date and Time values using JDBC
+```Java
+LocalDate localDate = LocalDate.now();
+PreparedStatement st = conn.prepareStatement( "INSERT INTO mytable (columnfoo) VALUES (?)" );
+st.setObject( 1, localDate );
+st.executeUpdate();
+st.close();
+```
+
+I reformatted the code slightly and fixed the syntax error … 
