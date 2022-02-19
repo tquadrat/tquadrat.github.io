@@ -2,11 +2,16 @@
 
 The Java `jshell` tool is useful for rapid prototyping simple Java code, or for testing some functionality.
 
-On Linux, I configured the Terminal application to have a special `JShell` terminal that starts with this command:
+On Linux, I configured the Terminal application to have a special `JShell` terminal, like shown in the screenshot below. It is from the Ubuntu terminal application, and – as you may have noticed already – in German:
 
-```
+![Terminal Configuration](TerminalConfiguration.png)
+
+`JShell` starts with this command:
+
+```bash
 jshell --enable-preview --startup ~/.local/jshell.startup
 ```
+
 The file `~/.local/jshell.startup` looks like this:
 
 ```Java
