@@ -188,3 +188,6 @@ Some hacks that may help you with your daily work with Gradle.
 
 #### [JShell Startup Configuration](stuff/jshellConfig.md)
 Pre-load and execute code in JShell on startup.
+
+#### [Database Lore](stuff/DatabaseLore.md)
+I bareley know how to spell database correctly, so I am quite often surprised about details about RBDMS and other databases that other will not even notice as something remarkable.
