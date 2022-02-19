@@ -65,9 +65,9 @@ H2 allows the mapping of its datatypes `DATE`, `TIME`, `TIME WITH TIME ZONE`, `T
 |`TIMESTAMP WITHOUT TIME ZONE`|`java.sql.Timestamp`, `java.util.Date`, **`java.time.LocalDateTime`**|
 |`DATETIME`|`java.sql.Timestamp`, `java.util.Date`, **`java.time.LocalDateTime`**|
 |`SMALLDATETIME`|`java.sql.Timestamp`, `java.util.Date`, **`java.time.LocalDateTime`**|
-|`TIMESTAMP WITH TIME ZONE`|**`java.time.OffsetDateTime`**, `java.time.ZonedDateTime`, **`java.time.Instant`**|
+|`TIMESTAMP WITH TIME ZONE`|**`java.time.OffsetDateTime`**, `java.time.ZonedDateTime`, `java.time.Instant`|
 
-The recommended Java type is shown in **bold**.
+The recommended Java type is shown in **`bold`**.
 
 Sample code:
 ```java
