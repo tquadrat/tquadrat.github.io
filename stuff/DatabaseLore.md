@@ -123,3 +123,9 @@ st.close();
 ```
 
 I reformatted the code slightly and fixed the syntax error … 
+
+### Derby (Apache DB)
+
+#### Data Types for Date Values, Time Values, TimeDate Values and TimeStamps
+
+Derby supports only `java.sql.Date`, `java.sql.Time` and `java.sql.Timestamp` for the SQL data types `DATE`, `TIME` and `TIMESTAMP`.
