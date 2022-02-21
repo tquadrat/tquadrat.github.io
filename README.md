@@ -180,6 +180,9 @@ A library with some utilities for the work with JavaFX, plus a few extensions to
 ##### *[foundation-mgmt](https://tquadrat.github.io/foundation-mgmt)*
 A library that allows the on-the-fly generation of a DynamicMBean, together with other JMX related stuff.
 
+##### *[foundation-sql](https://tquadrat.github.io/foundation-sql)*
+A library with database/JDBC related stuff.
+
 ### Other Stuff
 … stay tuned!
 
