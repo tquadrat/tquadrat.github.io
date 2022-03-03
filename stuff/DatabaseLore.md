@@ -19,7 +19,7 @@ public final boolean hasTable( final Connection connection, final String catalog
     final String [] effectiveTypes = nonNull( tableTypes ) && tableTypes.length == 0 ? null : tableTypes;
     try( final var resultSet = metaData.getTables( catalog, schemaPattern, tableNamePattern, effectiveTypes ) )
     {
-        retValue = resultSet.hasNext();
+        retValue = resultSet.next();
     }
 }   //  hasTable()
 ```
