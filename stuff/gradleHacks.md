@@ -14,7 +14,7 @@ From the JavaDoc in your source file, your refer to these files like this: `<a h
 
 Although the `javadoc` tool itself still supports this, it does not work properly when used with Maven or Gradle.
 
-Maven is using a special copy operation that takes care of the additional files, but for Gradle I had to create my own solution<sup>[^alternate]</sup>.
+Maven is using a special copy operation that takes care of the additional files, but for Gradle I had to create my own solution[^alternate].
 
 [^alternate]: Meanwhile I got a tip that Gradle's JavaDoc task should work on `project.sourceSets.main.getAllJava()` instead of on `projects.sourceSets.main.getAllSource()`. If true, it should help if I add all the `doc-files` folders and their contents to the source set. I need to test this …
 
@@ -80,7 +80,7 @@ To illustrate that, the directory trees for a project with just the class `foo.b
 
 Unfortunately, there is no method in Gradle to get the Java module name; ok, the convention is to name the module after the project's main package, and I have the convention to name the project after the module … but at the same time, I have multi-module (this time Gradle modules) projects where the projects have modules or not (so for example, annotation processors do not work well when implemented as a module …).
 
-So I used this method to obtain the module name<sup>[^groovy]</sup>:
+So I used this method to obtain the module name[^groovy]:
 
 [^groovy]: Sorry, but my Groovy skills are still … poor, at best. But of course, the method can be implemented in Groovy, too.
 
