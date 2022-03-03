@@ -21,6 +21,9 @@ public final boolean hasTable( final Connection connection, final String catalog
     {
         retValue = resultSet.next();
     }
+    
+    //---* Done *------------------------------------------------
+    return retValue;
 }   //  hasTable()
 ```
 Obviously, `connection` is the connection instance that connects the program to the RDBMS. `catalog` is the name of the catalog; the empty string "" stands for no catalog, `null` for all catalogs. Same for `schemaPattern`, representing the schema. 'Pattern' means that the wildcard characters '%' and '\_' can be used. 
