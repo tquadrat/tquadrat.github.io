@@ -15,11 +15,13 @@ jshell --enable-preview --startup ~/.local/jshell.startup
 The file `~/.local/jshell.startup` looks like this:
 
 ```Java
+import static java.lang.Math.*;
 import static java.lang.System.*;
 import static java.nio.file.Files.*;
 import static java.util.Objects.*;
 
 import java.io.*;
+import java.math.*; // for BigDecimal and BigInteger
 import java.time.*;
 import java.util.*;
 import java.util.regex.*;
