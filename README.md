@@ -1,5 +1,8 @@
 # tquadrat.github.io
 
+## Useful Links
+A collection of links that I found useful for my daily work is provided [here](UsefulLinks.md).
+
 ## Artifacts Repository
 You can pull the artifacts of my projects from my repository:
 
