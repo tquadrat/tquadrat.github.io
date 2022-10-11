@@ -31,7 +31,7 @@
 - [JavaFX](https://openjfx.io/)
 - [JavaMail](https://eclipse-ee4j.github.io/mail/): The email Handling Library for Java, now named JakartaMail, maintained by the Eclipse Foundation
 - [Lucene](https://lucene.apache.org/): Ultra-fast Searching from the Apache Foundation
-  - [Lucene Core 9.3.0](https://lucene.apache.org/core/9_3_0/core/index.html) JavaDoc
+  - For further details, see [here](#lucene)
 - [XChart](https://knowm.org/open-source/xchart/): A free Java library for the creation of charts.
 
 ### Downloads
@@ -76,3 +76,11 @@
 ## ICU – International Components for Unicode
 - [Homepage](https://icu.unicode.org/)
 - [Github](https://unicode-org.github.io/icu/): The new home for ICU since August 2020
+
+---
+
+## Lucene
+- [Lucene Core 9.3.0](https://lucene.apache.org/core/9_3_0/core/index.html) JavaDoc
+- [Lucene Core 9.4.0](https://lucene.apache.org/core/9_4_0/core/index.html) JavaDoc
+- [Baeldung: Guide to Lucene Analyzers](https://www.baeldung.com/lucene-analyzers)
+
