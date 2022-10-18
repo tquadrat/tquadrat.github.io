@@ -45,6 +45,7 @@
 - [IBM HeapAnalyzer](https://www.ibm.com/support/pages/ibm-heapanalyzer)
 - [Tagtraum GCViewer 1.29](https://www.tagtraum.com/gcviewer-download.html)
 - [Tagtraum GCViewer 1.36](https://github.com/chewiebug/GCViewer)
+- [Eclipse Memory Analyzer™](https://projects.eclipse.org/projects/tools.mat)
 
 ### Downloads
 
