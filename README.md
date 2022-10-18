@@ -192,7 +192,7 @@ A library with database/JDBC related stuff.
 #### [Linux Stuff](stuff/LinuxStuff.md)
 Some links, tips and tricks for the Linux operating system.
 
-#### [Mac Stuff](stuff/MacStuff.md)
+#### [MacOS Stuff](stuff/MacStuff.md)
 Some links, tips and tricks for Apple's MacOS operating system.
 
 #### [Windows Stuff](stuff/WindowsStuff.md)
