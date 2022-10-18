@@ -1,6 +1,9 @@
 # Useful Links
 
 ---
+## [Linux Stuff](
+
+## Windows Stuff
 
 ## Java
 
@@ -33,6 +36,13 @@
 - [Lucene](https://lucene.apache.org/): Ultra-fast Searching from the Apache Foundation
   - For further details, see [here](#lucene)
 - [XChart](https://knowm.org/open-source/xchart/): A free Java library for the creation of charts.
+
+### Debugging Tools
+- [IBM Pattern Modeling and Analysis Tool for Java Garbage Collector (PMAT)](https://www.ibm.com/support/pages/ibm-pattern-modeling-and-analysis-tool-java-garbage-collector-pmat)
+- [IBM Thread and Monitor Dump Analyzer for Java (TMDA)](https://www.ibm.com/support/pages/ibm-thread-and-monitor-dump-analyzer-java-tmda)
+- [IBM HeapAnalyzer](https://www.ibm.com/support/pages/ibm-heapanalyzer)
+- [Tagtraum GCViewer 1.29](https://www.tagtraum.com/gcviewer-download.html)
+- [Tagtraum GCViewer 1.36](https://github.com/chewiebug/GCViewer)
 
 ### Downloads
 
