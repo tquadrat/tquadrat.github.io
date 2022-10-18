@@ -189,6 +189,15 @@ A library with database/JDBC related stuff.
 ### Other Stuff
 … stay tuned!
 
+#### [Linux Stuff](stuff/LinuxStuff.md)
+Some links, tips and tricks for the Linux operating system.
+
+#### [Mac Stuff](stuff/MacStuff.md)
+Some links, tips and tricks for Apple's MacOS operating system.
+
+#### [Windows Stuff](stuff/WindowsStuff.md)
+Some links, tips and tricks for the Microsoft Windows operating system.
+
 #### [Gradle Hacks](stuff/gradleHacks.md)
 Some hacks that may help you with your daily work with Gradle.
 
@@ -198,8 +207,3 @@ Pre-load and execute code in JShell on startup.
 #### [Database Lore](stuff/DatabaseLore.md)
 I barely know how to spell database correctly, so I am quite often surprised of details about RBDMS and other databases that others will not even notice as something remarkable.
 
-#### [Linux Stuff](stuff/LinuxStuff.md)
-Some links, tips and tricks for the Linux operating system.
-
-#### [Windows Stuff](stuff/WindowsStuff.md)
-Some links, tips and tricks for the Microsoft Windows operating system.
