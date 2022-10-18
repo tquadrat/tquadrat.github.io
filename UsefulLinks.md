@@ -3,6 +3,8 @@
 ---
 ## [Linux Stuff](stuff/LinuxStuff.md)
 
+## [MacOS Stuff](stuff/MacStuff.md)
+
 ## [Windows Stuff](stuff/WindowsStuff.md)
 
 ## Java
