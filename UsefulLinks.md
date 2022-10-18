@@ -1,9 +1,9 @@
 # Useful Links
 
 ---
-## [Linux Stuff](
+## [Linux Stuff](stuff/LinuxStuff.md)
 
-## Windows Stuff
+## [Windows Stuff](stuff/WindowsStuff.md)
 
 ## Java
 
