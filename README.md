@@ -197,3 +197,9 @@ Pre-load and execute code in JShell on startup.
 
 #### [Database Lore](stuff/DatabaseLore.md)
 I barely know how to spell database correctly, so I am quite often surprised of details about RBDMS and other databases that others will not even notice as something remarkable.
+
+#### [Linux Stuff](LinuxStuff.md)
+Some links, tips and tricks for the Linux operating system.
+
+#### [Windows Stuff](WindowsStuff.md)
+Some links, tips and tricks for the Microsoft Windows operating system.
