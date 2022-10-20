@@ -53,6 +53,10 @@
 
 ## Lua
 
+- [The Programming Language Lua](https://www.lua.org)
+- [Lua — a language meant to be embedded](https://medium.com/avenga/lua-a-language-meant-to-be-embedded-1cd2488b4370)
+- Luaj [on SourceForge](https://sourceforge.net/projects/luaj/) or on [GitHub](https://github.com/luaj)
+
 ---
 
 ## Python
