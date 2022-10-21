@@ -7,6 +7,7 @@
 
 ## [Windows Stuff](stuff/WindowsStuff.md)
 
+---
 ## Java
 
 ### General Stuff
@@ -27,7 +28,7 @@
 - [Java Scripting Programmer's Guide](https://docs.oracle.com/javase/7/docs/technotes/guides/scripting/programmer_guide/index.html) for Java 7
 - [Open Source Scripting Languages in Java](https://java-source.net/open-source/scripting-languages)
 - [Lua](#lua)
-- [Python](#python)
+- [Python](#python-and-jython)
 
 #### AWT and Swing
 - [Using Headless Mode in the Java SE Platform](https://www.oracle.com/technical-resources/articles/javase/headless.html)\
@@ -47,8 +48,8 @@
 - [Java® Platform, Standard Edition & Java Development Kit Version 19 API Specification](https://docs.oracle.com/en/java/javase/19/docs/api/index.html)
 
 ### Additional Libraries
-- [ActiveMQ](https://activemq.apache.org/)
-- [H2 Database Engine](https://www.h2database.com/html/main.html)
+- [ActiveMQ](https://activemq.apache.org/): Multi-Protocol Messaging
+- [H2 Database Engine](https://www.h2database.com/html/main.html) 
 - [ICU](https://www.google.com/url?q=https%3A%2F%2Funicode-org.github.io%2Ficu-docs%2Fapidoc%2Freleased%2Ficu4j%2F&sa=D&sntz=1&usg=AOvVaw1YNhEXLu7oP-dfkiCyiJMP)
   - For further details, see [here](#icu--international-components-for-unicode)
 - [JavaFX](https://openjfx.io/)
