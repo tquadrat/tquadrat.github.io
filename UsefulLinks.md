@@ -11,15 +11,24 @@
 
 ### General Stuff
 
-#### The Java Scripting API (JSR223)
+### JVM Languages
+- [https://en.wikipedia.org/wiki/List_of_JVM_languages](List of JVM languages)\
+  The Wikipedia article about the alternative JVM languages, with a current list of the various implementations.
+- [Alternative Languages for the JVM](https://www.oracle.com/technical-resources/articles/java/architect-languages.html)\
+  This article deals not only with languages that can be used with the Scripting API, but with other first class languages like Scala, too.
+- [A Complete Guide to JVM Languages](https://www.whizlabs.com/blog/jvm-languages/)\
+  This article deals mainly with alternative languages on the JVM, and ignores their use as script languages inside a Java application.
+- [An Overview of the JVM Languages](https://www.baeldung.com/jvm-languages)\
+  Another article about the first class languages
+
+##### The Java Scripting API (JSR223)
+- [JSR 223: Scripting for the JavaTM Platform](https://www.jcp.org/en/jsr/detail?id=223) - The original Java Specification Request for Java Scripting
 - [Java Platform, Standard Edition Java Scripting Programmer's Guide](https://docs.oracle.com/javase/8/docs/technotes/guides/scripting/prog_guide/) for Java 8
 - [Java Scripting Programmer's Guide](https://docs.oracle.com/javase/7/docs/technotes/guides/scripting/programmer_guide/index.html) for Java 7
-- [Alternative Languages for the JVM](https://www.oracle.com/technical-resources/articles/java/architect-languages.html)
-  This article deals not only with languages that can be used with the Scripting API, but with other first class languages like Scala, too.
 
 #### AWT and Swing
 - [Using Headless Mode in the Java SE Platform](https://www.oracle.com/technical-resources/articles/javase/headless.html)\
-  This article explains how to use the headless mode capabilities of the Java Platform, Standard Edition (Java SE, formerly referred to as J2SE). It is a little bit old, but still valid, as long AWT (and Swing) are part of the Java Platform.
+  This article explains how to use the headless mode capabilities of the Java Platform, Standard Edition (Java SE, formerly referred to as J2SE). It is a little bit old, but still valid, as long AWT (and Swing) are part of the Java Platform.\
   JavaFX does not provide a headless mode, but if `java.awt.headless="true"` is set, a JavaFX GUI will most probably not start, too.
 
 ### Java 17
