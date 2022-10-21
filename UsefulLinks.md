@@ -56,6 +56,7 @@
 - [JavaMail](https://eclipse-ee4j.github.io/mail/): The email Handling Library for Java, now named JakartaMail, maintained by the Eclipse Foundation
 - [Lucene](https://lucene.apache.org/): Ultra-fast Searching from the Apache Foundation
   - For further details, see [here](#lucene)
+- [Neo4J](https://neo4j.com/): Graph Data Platform 
 - [XChart](https://knowm.org/open-source/xchart/): A free Java library for the creation of charts.
 
 ### Debugging Tools
