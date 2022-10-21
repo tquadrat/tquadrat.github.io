@@ -11,7 +11,7 @@
 
 ### General Stuff
 
-### JVM Languages
+#### JVM Languages
 - [https://en.wikipedia.org/wiki/List_of_JVM_languages](List of JVM languages)\
   The Wikipedia article about the alternative JVM languages, with a current list of the various implementations.
 - [Alternative Languages for the JVM](https://www.oracle.com/technical-resources/articles/java/architect-languages.html)\
@@ -21,10 +21,13 @@
 - [An Overview of the JVM Languages](https://www.baeldung.com/jvm-languages)\
   Another article about the first class languages
 
-##### The Java Scripting API (JSR223)
+###### The Java Scripting API (JSR223)
 - [JSR 223: Scripting for the JavaTM Platform](https://www.jcp.org/en/jsr/detail?id=223) - The original Java Specification Request for Java Scripting
 - [Java Platform, Standard Edition Java Scripting Programmer's Guide](https://docs.oracle.com/javase/8/docs/technotes/guides/scripting/prog_guide/) for Java 8
 - [Java Scripting Programmer's Guide](https://docs.oracle.com/javase/7/docs/technotes/guides/scripting/programmer_guide/index.html) for Java 7
+- [Open Source Scripting Languages in Java](https://java-source.net/open-source/scripting-languages)
+- [Lua](#lua)
+- [Python](#python)
 
 #### AWT and Swing
 - [Using Headless Mode in the Java SE Platform](https://www.oracle.com/technical-resources/articles/javase/headless.html)\
