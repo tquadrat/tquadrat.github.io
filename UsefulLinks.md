@@ -11,6 +11,12 @@
 
 ### General Stuff
 
+#### The Java Scripting API (JSR223)
+- [Java Platform, Standard Edition Java Scripting Programmer's Guide](https://docs.oracle.com/javase/8/docs/technotes/guides/scripting/prog_guide/) for Java 8
+- [Java Scripting Programmer's Guide](https://docs.oracle.com/javase/7/docs/technotes/guides/scripting/programmer_guide/index.html) for Java 7
+- [Alternative Languages for the JVM](https://www.oracle.com/technical-resources/articles/java/architect-languages.html)
+  This article deals not only with languages that can be used with the Scripting API, but with other first class languages like Scala, too.
+
 #### AWT and Swing
 - [Using Headless Mode in the Java SE Platform](https://www.oracle.com/technical-resources/articles/javase/headless.html)\
   This article explains how to use the headless mode capabilities of the Java Platform, Standard Edition (Java SE, formerly referred to as J2SE). It is a little bit old, but still valid, as long AWT (and Swing) are part of the Java Platform.
@@ -56,13 +62,16 @@
 - [The Programming Language Lua](https://www.lua.org)
 - [Lua — a language meant to be embedded](https://medium.com/avenga/lua-a-language-meant-to-be-embedded-1cd2488b4370)
 - Luaj [on SourceForge](https://sourceforge.net/projects/luaj/) or on [GitHub](https://github.com/luaj)
+- [luajava](https://github.com/jasonsantos/luajava)
 
 ---
 
-## Python
+## Python and Jython
 - [HomePage](https://www.python.org/): The starting point for Python development
+- [Jython](https://www.jython.org/) (find it on GitHub [here](https://github.com/jython/jython))
+- [Learn Jython](https://www.tutorialspoint.com/jython/index.htm)
 
-### IDEs and Development Tools
+### Python IDEs and Development Tools
 -  [PyCharm](https://www.jetbrains.com/pycharm/): The Python IDE from JetBrains
 
 ---
