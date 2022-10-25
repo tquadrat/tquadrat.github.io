@@ -3,6 +3,6 @@
 Common information about the Raspberry Pi, my projects based on that computer, and other useful stuff around the "Pi".
 
 ---
-## Documentation Links
+## [Raspberry Pi Documentation](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html)
 
-- [Pi 4 Bootloader Configuration](https://www.raspberrypi.org/documentation/hardware/raspberrypi/bcm2711_bootloader_config.md)
+The official documentation for Raspberry Pi computers and microcontrollers
