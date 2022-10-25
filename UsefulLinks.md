@@ -8,6 +8,11 @@
 ## [Windows Stuff](stuff/WindowsStuff.md)
 
 ---
+## [The Raspberry](stuff/RaspberryStuff.md)
+
+Information about the Raspberry Pi, projects based on that computer and related stuff.
+
+---
 ## Java
 
 ### General Stuff
