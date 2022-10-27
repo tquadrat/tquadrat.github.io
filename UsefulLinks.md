@@ -110,6 +110,8 @@ Information about the Raspberry Pi, projects based on that computer and related 
 
 ## Github
 - [Help for the Jekyll theme 'Dinky'](https://githubhelp.com/pages-themes/dinky)
+- [Install the Git-Credential-Manager](https://github.com/microsoft/Git-Credential-Manager-for-Mac-and-Linux/blob/master/Install.md)\
+  This is required to push to github without the need to provide the password (access token) manually.
 
 ---
 
