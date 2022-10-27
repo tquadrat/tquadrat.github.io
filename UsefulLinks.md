@@ -129,3 +129,8 @@ Information about the Raspberry Pi, projects based on that computer and related 
 - [Lucene Core 9.4.0](https://lucene.apache.org/core/9_4_0/core/index.html) JavaDoc
 - [Baeldung: Guide to Lucene Analyzers](https://www.baeldung.com/lucene-analyzers)
 
+---
+
+## TeX and LaTeX
+- [Additional Links and Infos](stuff/TexStuff.md)
+
