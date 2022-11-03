@@ -17,9 +17,13 @@ basicstyle=\ttfamily\footnotesize\bfseries,
 commentstyle=\color[gray]{.2}\bfseries,
                                   % The style for the comments if different
                                   % from the basic style
+identifierstyle=,                 % The style for identifiers
+stringstsyle=,                    % The style for String constants
 keywordstyle=\color[gray]{.2},    % The style for the keywords of the selected
                                   % programming language if different from the
                                   % basic style
+showstringspaces=true,            % A special character is displayed for the
+                                  % blanks in a String
 
 frame=single,                     % The listing should be surrounded by a frame
 framerule=0.2pt,                  % The width of that frame
