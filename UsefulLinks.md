@@ -17,6 +17,25 @@ Information about the Raspberry Pi, projects based on that computer and related 
 
 ### General Stuff
 
+#### The Java Language Specification
+- [Java 19](https://docs.oracle.com/javase/specs/jls/se19/html/index.html)
+- [Java 18](https://docs.oracle.com/javase/specs/jls/se18/html/index.html)
+- [***Java 17***](https://docs.oracle.com/javase/specs/jls/se17/html/index.html)
+- [Java 16](https://docs.oracle.com/javase/specs/jls/se16/html/index.html)
+- [Java 15](https://docs.oracle.com/javase/specs/jls/se15/html/index.html)
+- [Java 14](https://docs.oracle.com/javase/specs/jls/se14/html/index.html)
+- [Java 13](https://docs.oracle.com/javase/specs/jls/se13/html/index.html)
+- [Java 12](https://docs.oracle.com/javase/specs/jls/se12/html/index.html)
+- [Java 11](https://docs.oracle.com/javase/specs/jls/se11/html/index.html)
+- [Java 10](https://docs.oracle.com/javase/specs/jls/se10/html/index.html)
+- [Java 9](https://docs.oracle.com/javase/specs/jls/se9/html/index.html)
+- [Java 8](https://docs.oracle.com/javase/specs/jls/se8/html/index.html)
+- [Java 7](https://docs.oracle.com/javase/specs/jls/se7/html/index.html)
+- [Java 6](https://docs.oracle.com/javase/specs/jls/se6/html/index.html)
+- [Java 5](https://docs.oracle.com/javase/specs/jls/se5/html/index.html)
+
+See also [here](https://docs.oracle.com/javase/specs/) for PDF versions of the various editions of the *JLS*. This page also provides the Java Virtual Machine Specifications for the various editions.
+
 #### JVM Languages
 - [https://en.wikipedia.org/wiki/List_of_JVM_languages](List of JVM languages)\
   The Wikipedia article about the alternative JVM languages, with a current list of the various implementations.
