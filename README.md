@@ -186,6 +186,11 @@ A library that allows the on-the-fly generation of a DynamicMBean, together with
 ##### *[foundation-sql](https://tquadrat.github.io/foundation-sql)*
 A library with database/JDBC related stuff.
 
+### Documents
+Some documents I worked on.
+
+Some of them were created with LaTeX, for those you can find the sources in the repository “documents” here.
+ 
 ### Other Stuff
 … stay tuned!
 
