@@ -18,23 +18,11 @@ Information about the Raspberry Pi, projects based on that computer and related 
 ### General Stuff
 
 #### The Java Language Specification
-- [Java 19](https://docs.oracle.com/javase/specs/jls/se19/html/index.html)
-- [Java 18](https://docs.oracle.com/javase/specs/jls/se18/html/index.html)
-- [***Java 17***](https://docs.oracle.com/javase/specs/jls/se17/html/index.html)
-- [Java 16](https://docs.oracle.com/javase/specs/jls/se16/html/index.html)
-- [Java 15](https://docs.oracle.com/javase/specs/jls/se15/html/index.html)
-- [Java 14](https://docs.oracle.com/javase/specs/jls/se14/html/index.html)
-- [Java 13](https://docs.oracle.com/javase/specs/jls/se13/html/index.html)
-- [Java 12](https://docs.oracle.com/javase/specs/jls/se12/html/index.html)
-- [Java 11](https://docs.oracle.com/javase/specs/jls/se11/html/index.html)
-- [Java 10](https://docs.oracle.com/javase/specs/jls/se10/html/index.html)
-- [Java 9](https://docs.oracle.com/javase/specs/jls/se9/html/index.html)
-- [Java 8](https://docs.oracle.com/javase/specs/jls/se8/html/index.html)
-- [Java 7](https://docs.oracle.com/javase/specs/jls/se7/html/index.html)
-- [Java 6](https://docs.oracle.com/javase/specs/jls/se6/html/index.html)
-- [Java 5](https://docs.oracle.com/javase/specs/jls/se5/html/index.html)
+See [here](https://docs.oracle.com/javase/specs/) for the various versions of the *JLS* and also the Java Virtual Machine Specifications for the various editions. Both documents are available as PDF, too.
 
-See also [here](https://docs.oracle.com/javase/specs/) for PDF versions of the various editions of the *JLS*. This page also provides the Java Virtual Machine Specifications for the various editions.
+For the currently relevant versions, the respective links are in the sections for that version.
+
+Important changes were made in [Java 5](https://docs.oracle.com/javase/specs/jls/se5/html/index.html) (Generics, enum, …), [Java 8](https://docs.oracle.com/javase/specs/jls/se8/html/index.html) (Lambdas, …), and [Java 9](https://docs.oracle.com/javase/specs/jls/se9/html/index.html) (Modules, …),
 
 #### JVM Languages
 - [https://en.wikipedia.org/wiki/List_of_JVM_languages](List of JVM languages)\
@@ -62,14 +50,17 @@ See also [here](https://docs.oracle.com/javase/specs/) for PDF versions of the v
 ### Java 17
 - [JDK 17 Documentation](https://docs.oracle.com/en/java/javase/17/)
 - [Java® Platform, Standard Edition & Java Development Kit Version 17 API Specification](https://docs.oracle.com/en/java/javase/17/docs/api/index.html)
+- [Java Language Specification](https://docs.oracle.com/javase/specs/jls/se17/html/index.html)
 
 ### Java 18
 - [JDK 18 Documentation](https://docs.oracle.com/en/java/javase/18/)
 - [Java® Platform, Standard Edition & Java Development Kit Version 18 API Specification](https://docs.oracle.com/en/java/javase/18/docs/api/index.html)
+- [Java Language Specification](https://docs.oracle.com/javase/specs/jls/se18/html/index.html)
 
 ### Java 19
 - [JDK 19 Documentation](https://docs.oracle.com/en/java/javase/19/)
 - [Java® Platform, Standard Edition & Java Development Kit Version 19 API Specification](https://docs.oracle.com/en/java/javase/19/docs/api/index.html)
+- [Java Language Specification](https://docs.oracle.com/javase/specs/jls/se19/html/index.html)
 
 ### Additional Libraries
 - [ActiveMQ](https://activemq.apache.org/): Multi-Protocol Messaging
