@@ -24,17 +24,34 @@ These are for a document in English language, for another language you have to a
 \newcommand*{\tqvref}[1]{\hyperref[{#1}]{\ref*{#1}} auf Seite \pageref{#1}}
 ```
 
+The destination for the reference will be marked with the `\label` command, like this:
+
+```tex
+\section{<headline>}\label{sec:<label>}
+…
+See chapter \tqfullref{sec:<label>}
+See chapter \tqfullvref{sec:<label>}
+See chapter \tqref{sec:<label>}
+See chapter \tqvref{sec:<label>}
+```
+
 - `\tqfullref` adds a reference like ***“\<number> \<headline>”***
 - `\tqfullvref` adds a reference like ***“\<number> \<headline>” on page \<page>***
 - `\tqref` adds a reference like ***\<number>***
 - `\tqvref` adds a reference like ***\<number> on page \<page>***
 
-Both, the number/headline and the page number will be generated as hyperlinks.
+Both, the number/headline and the page number will be generated as hyperlinks. So the resulting output would look like this:
+
+> ### 1.2.3 \<headline>
+> …\
+> See chapter <ins>“1.2.3 \<headline>”</ins>\
+> See chapter <ins>“1.2.3 \<headline>”</ins> on page <ins>42</ins>\
+> See chapter <ins>1.2.3</ins>\
+> See chapter <ins>1.2.3</ins> on page <ins>42</ins>
 
 ### Links
 - [hyperref – Extensive support for hypertext in LATEX](https://ctan.org/pkg/hyperref)
 - [Hypertext marks in LATEX: a manual for hyperref](https://ftp.gwdg.de/pub/ctan/macros/latex/contrib/hyperref/doc/hyperref-doc.html)
-
 - [nameref – Make reference to section names, etc](https://www.ctan.org/pkg/nameref)
 - [Section name references in LATEX](https://mirror.dogado.de/tex-archive/macros/latex/contrib/hyperref/doc/nameref.pdf)
 
