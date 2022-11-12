@@ -1,7 +1,45 @@
 # Information and Tools related to TeX and LaTeX
 
-## Package "lstlisting"
-This package can be used to add 'listings' – source code of programs, scripts and alike – to a document. It allows syntax highlighting for several programming languages.
+## References in a Document
+To add a reference to another part of your document, add the following new commands to the preamble of your document source:
+
+```tex
+\usepackage{nameref}
+\usepackage[colorlinks=true]{hyperref}
+
+\newcommand*{\tqfullref}[1]{\hyperref[{#1}]{“\ref*{#1} \nameref*{#1}”}}
+\newcommand*{\tqfullvref}[1]{\hyperref[{#1}]{“\ref*{#1} \nameref*{#1}”} on page \pageref{#1}}
+\newcommand*{\tqref}[1]{\hyperref[{#1}]{\ref*{#1}}}
+\newcommand*{\tqvref}[1]{\hyperref[{#1}]{\ref*{#1}} on page \pageref{#1}}
+```
+
+These are for a document in English language, for another language you have to adjust the commands accordingly; for the German language, the will look like this:
+```tex
+\usepackage{nameref}
+\usepackage[colorlinks=true]{hyperref}
+
+\newcommand*{\tqfullref}[1]{\hyperref[{#1}]{„\ref*{#1} \nameref*{#1}”}}
+\newcommand*{\tqfullvref}[1]{\hyperref[{#1}]{„\ref*{#1} \nameref*{#1}”} auf Seite \pageref{#1}}
+\newcommand*{\tqref}[1]{\hyperref[{#1}]{\ref*{#1}}}
+\newcommand*{\tqvref}[1]{\hyperref[{#1}]{\ref*{#1}} auf Seite \pageref{#1}}
+```
+
+- `\tqfullref` adds a reference like ***“\<number> \<headline>”***
+- `\tqfullvref` adds a reference like ***“\<number> \<headline>” on page \<page>***
+- `\tqref` adds a reference like ***\<number>***
+- `\tqvref` adds a reference like ***\<number> on page \<page>***
+
+Both, the number/headline and the page number will be generated as hyperlinks.
+
+### Links
+- [hyperref – Extensive support for hypertext in LATEX](https://ctan.org/pkg/hyperref)
+- [Hypertext marks in LATEX: a manual for hyperref](https://ftp.gwdg.de/pub/ctan/macros/latex/contrib/hyperref/doc/hyperref-doc.html)
+
+- [nameref – Make reference to section names, etc](https://www.ctan.org/pkg/nameref)
+- [Section name references in LATEX](https://mirror.dogado.de/tex-archive/macros/latex/contrib/hyperref/doc/nameref.pdf)
+
+## Integration of Source Code Listings
+To integrate 'listings' – source code of programs, scripts and alike – into a document, use the package `listings`. It allows syntax highlighting for several programming languages.
 
 To integrate the package, put the line `\usepackage{listings}` to the preamble of your document.
 
