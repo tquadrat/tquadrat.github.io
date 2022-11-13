@@ -24,6 +24,8 @@ These are for a document in English language, for another language you have to a
 \newcommand*{\tqvref}[1]{\hyperref[{#1}]{\ref*{#1}} auf Seite \pageref{#1}}
 ```
 
+Because the `hyperlink` package redefines several other LaTex commands, it should be loaded always as the last package.
+
 The destination for the reference will be marked with the `\label` command, like this:
 
 ```tex
@@ -48,6 +50,16 @@ Both, the number/headline and the page number will be generated as hyperlinks. S
 > See chapter <ins>“1.2.3 \<headline>”</ins> on page <ins>42</ins>\
 > See chapter <ins>1.2.3</ins>\
 > See chapter <ins>1.2.3</ins> on page <ins>42</ins>
+  
+The `hyperlink` package provides also the commands `\url` and `\href` that allow to integrate references to websites or an email address into the generated document. The code:
+  
+```tex
+Send me an email: \href{mailto:thomas.thrien@tquadrat.org}{thomas.thrien@tquadrat.org}
+Or see my GitHub page: \url{https://tquadrat.github.io/}
+```
+results in:
+> Send me an email: <ins>thomas.thrien@tquadrat.org</ins>\
+> Or see my GitHub page: <ins>https://tquadrat.github.io/</ins>
 
 ### Links
 - [hyperref – Extensive support for hypertext in LATEX](https://ctan.org/pkg/hyperref)
