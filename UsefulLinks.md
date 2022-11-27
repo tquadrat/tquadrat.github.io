@@ -20,9 +20,9 @@ Information about the Raspberry Pi, projects based on that computer and related 
 #### The Java Language Specification
 See [here](https://docs.oracle.com/javase/specs/) for the various versions of the *JLS* and also the Java Virtual Machine Specifications for the various editions, beginning with Java 6. Both documents are available as PDF, too. See [here](http://titanium.cs.berkeley.edu/doc/java-langspec-2.0.pdf) for "The Java Language Specification, Second Edition", covering the language as it was before Java&nbsp;5.
 
-For the currently relevant versions, the respective links are in the sections for that version.
+For the currently relevant versions, the respective links are in the sections for that version, below.
 
-Important changes were made in [Java&nbsp;5]([https://docs.oracle.com/javase/specs/jls/se5/html/index.html](http://www.inf.unibz.it/~calvanese/teaching/java-docs/5.0/guide/language/index.html)) (Generics, enum, static imports …), [Java&nbsp;8](https://docs.oracle.com/javase/specs/jls/se8/html/index.html) (Lambdas, …), and [Java&nbsp;9](https://docs.oracle.com/javase/specs/jls/se9/html/index.html) (Modules, …),
+Important changes were made in [Java&nbsp;5](http://www.inf.unibz.it/~calvanese/teaching/java-docs/5.0/guide/language/index.html) (Generics, enum, static imports …), [Java&nbsp;8](https://docs.oracle.com/javase/specs/jls/se8/html/index.html) (Lambdas, …), and [Java&nbsp;9](https://docs.oracle.com/javase/specs/jls/se9/html/index.html) (Modules, …),
 
 #### JVM Languages
 - [https://en.wikipedia.org/wiki/List_of_JVM_languages](List of JVM languages)\
