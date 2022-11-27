@@ -25,7 +25,7 @@ For the currently relevant versions, the respective links are in the sections fo
 Important changes were made in [Java&nbsp;5](http://www.inf.unibz.it/~calvanese/teaching/java-docs/5.0/guide/language/index.html) (Generics, enum, static imports …), [Java&nbsp;8](https://docs.oracle.com/javase/specs/jls/se8/html/index.html) (Lambdas, …), and [Java&nbsp;9](https://docs.oracle.com/javase/specs/jls/se9/html/index.html) (Modules, …),
 
 #### JVM Languages
-- [https://en.wikipedia.org/wiki/List_of_JVM_languages](List of JVM languages)\
+- [List of JVM languages](https://en.wikipedia.org/wiki/List_of_JVM_languages)\
   The Wikipedia article about the alternative JVM languages, with a current list of the various implementations.
 - [Alternative Languages for the JVM](https://www.oracle.com/technical-resources/articles/java/architect-languages.html)\
   This article deals not only with languages that can be used with the Scripting API, but with other first class languages like Scala, too.
