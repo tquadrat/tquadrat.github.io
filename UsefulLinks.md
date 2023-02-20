@@ -146,3 +146,8 @@ Important changes were made in [Java&nbsp;5](http://www.inf.unibz.it/~calvanese/
 ## TeX and LaTeX
 - [Additional Links and Infos](stuff/TexStuff.md)
 
+---
+
+## Graphics and Image Handling
+- [Graphviz](https://graphviz.org/) Generation of graphs
+
