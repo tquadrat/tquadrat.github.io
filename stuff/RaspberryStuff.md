@@ -7,9 +7,30 @@ Common information about the Raspberry Pi, my projects based on that computer, a
 
 The official documentation for Raspberry Pi computers and microcontrollers
 
-## Miscellaneous ##
+---
+## Miscellaneous
 
 Unsorted notes about various features of the Raspberry Pi and components to use with it.
+
+---
+### PiJuice
+
+The PiJuice hat provides a UPS to the Raspberry Pi. It provides also an RTC.
+
+  - [Installation of PiJuice](https://learn.pi-supply.com/make/pijuice-quick-start-guide-faq/#software-installation)
+
+If the PiJuice GUI does not start, refer [to this article](https://github.com/PiSupply/PiJuice/issues/1000).
+
+To enable the PiJuice Service that is required to configure the software, try this:
+```bash
+$ sudo systemctl status pijuice.service
+$ sudo systemctl enable pijuice.service
+$ sudo systemctl restart pijuice.service
+```
+
+---
+### The Raspi Camera
+
 
 Foto mit der Kamera aufnehmen:
 
@@ -26,3 +47,9 @@ Spiegeln der Aufnahme
 Je nachdem wie das Kamera-Modul verbaut und aufgestellt wurde, kann es sein, dass man die Aufnahmen spiegeln möchte.
 
 Mit der Option "-hf" spiegelt man das Foto horizontal, während die Option "-vf" es vertikal spiegelt.
+
+---
+### [The Sunfounder Pan-Tilt Hat](https://docs.sunfounder.com/projects/pantilt-v3/en/latest/)
+
+  - [Repository with the Software](https://github.com/sunfounder/pan-tilt-hat.git)
+
