@@ -2,22 +2,21 @@
 
 ## Taking photos with the Raspberry Camera
 
-tquadrat@TCON-PI4005:~ $ raspistill
+### The `raspistill` Camera App
 
-"raspistill" Camera App (commit bab9bf8790cd Tainted)
+Runs the camera for a specific time, and takes a JPEG capture at the end if requested.
 
-Runs camera for specific time, and take JPG capture at end if requested
+Usage: `raspistill [options]`
 
-usage: raspistill [options]
+#### Image parameter commands
 
-Image parameter commands
-
--q, --quality	: Set jpeg quality <0 to 100>
--r, --raw	: Add raw bayer data to jpeg metadata
--l, --latest	: Link latest complete image to filename <filename>
--t, --timeout	: Time (in ms) before takes picture and shuts down (if not specified, set to 5s)
--th, --thumb	: Set thumbnail parameters (x:y:quality) or none
--d, --demo	: Run a demo mode (cycle through range of camera options, no capture)
+ - `-q`, `--quality` – Sets the JPRG quality within a range from 0 to 100
+ - `-r`, `--raw` – Adds raw bayer data to the JPEG metadata
+ - `-l <filename>`, `--latest <filename>` – Links the latest complete image to  the given filename
+ - `-t <delay>`, `--timeout <delay>` – The time (in ms) before taking the picture and terminating (if not specified, it is set to 5s)
+ - `-th {<x>:<y>:<quality> | none}`, `--thumb {<x>:<y>:<quality> | none}` – Sets the thumbnail parameters
+ - `-d`, `--demo` –	Runs a demo mode (cycles through the range of camera options, without a capture)
+ - 
 -e, --encoding	: Encoding to use for output file (jpg, bmp, gif, png)
 -x, --exif	: EXIF tag to apply to captures (format as 'key=value') or none
 -tl, --timelapse	: Timelapse mode. Takes a picture every <t>ms. %d == frame number (Try: -o img_%04d.jpg)
