@@ -29,8 +29,9 @@ $ sudo systemctl restart pijuice.service
 ```
 
 ---
-### The Raspi Camera
+### [The Raspi Camera](raspi/CameraStuff.md)
 
+Information on how to install the Raspberry Camera, and how to use it.
 
 Foto mit der Kamera aufnehmen:
 
