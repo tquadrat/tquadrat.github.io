@@ -7,6 +7,7 @@ Common information about the Raspberry Pi, my projects based on that computer, a
 
 The official documentation for Raspberry Pi computers and microcontrollers
 
+---
 ## [The Raspi Camera](raspi/CameraStuff.md)
 
 Information on how to install the Raspberry Camera, and how to use it.
