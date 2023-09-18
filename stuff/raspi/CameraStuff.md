@@ -16,15 +16,15 @@ Usage: `raspistill [options]`
  - `-t <delay>`, `--timeout <delay>` – The time (in ms) before taking the picture and terminating (if not specified, it is set to 5s)
  - `-th {<x>:<y>:<quality> | none}`, `--thumb {<x>:<y>:<quality> | none}` – Sets the thumbnail parameters
  - `-d`, `--demo` –	Runs a demo mode (cycles through the range of camera options, without a capture)
+ - `-e {jpg | bmp | gif | png}`, `--encoding {jpg | bmp | gif | png}` – The Encoding to use for the output file
+ - `-x {<key>=<value> | none}`, `--exif {<key>=<value> | none}`	– EXIF tag to apply to the captures
+ - `-tl`, `--timelapse` – Timelapse mode; takes a picture every `<t>` ms. %d == frame number in the output file name (Try: `-o img_%04d.jpg`)
+ - `-fp`, `--fullpreview`	– Runs the preview using the still capture resolution (may reduce preview framerate)
+ - `-k`, `--keypress`	– Waits between captures for a `ENTER`, `X` then `ENTER` to exit the program
+ - `-s`, `--signal`	– Waits between captures for a `SIGUSR1` or `SIGUSR2` from another process
+ - `-g`, `--gl`	– Draws the preview to texture instead of using the video render component
+ - `-gc`, `--glcapture`	– Captures the GL frame-buffer instead of the camera image
  - 
--e, --encoding	: Encoding to use for output file (jpg, bmp, gif, png)
--x, --exif	: EXIF tag to apply to captures (format as 'key=value') or none
--tl, --timelapse	: Timelapse mode. Takes a picture every <t>ms. %d == frame number (Try: -o img_%04d.jpg)
--fp, --fullpreview	: Run the preview using the still capture resolution (may reduce preview fps)
--k, --keypress	: Wait between captures for a ENTER, X then ENTER to exit
--s, --signal	: Wait between captures for a SIGUSR1 or SIGUSR2 from another process
--g, --gl	: Draw preview to texture instead of using video render component
--gc, --glcapture	: Capture the GL frame-buffer instead of the camera image
 -bm, --burst	: Enable 'burst capture mode'
 -dt, --datetime	: Replace output pattern (%d) with DateTime (MonthDayHourMinSec)
 -ts, --timestamp	: Replace output pattern (%d) with unix timestamp (seconds since 1970)
@@ -47,13 +47,13 @@ Common Settings commands
 -md, --mode	: Force sensor mode. 0=auto. See docs for other modes available
 -gps, --gpsdexif	: Apply real-time GPS information to output (e.g. EXIF in JPG, annotation in video (requires libgps.so.23)
 
-Preview parameter commands
+#### Preview parameter commands
 
--p, --preview	: Preview window settings <'x,y,w,h'>
+ -`-p, --preview	: Preview window settings <'x,y,w,h'>
 -f, --fullscreen	: Fullscreen preview mode
 -op, --opacity	: Preview window opacity (0-255)
 -n, --nopreview	: Do not display a preview window
--dn, --dispnum	: Display on which to display the preview window (dispmanx/tvservice numbering)
+-dn, --dispnum` – Display on which to display the preview window (dispmanx/tvservice numbering)
 
 Image parameter commands
 
