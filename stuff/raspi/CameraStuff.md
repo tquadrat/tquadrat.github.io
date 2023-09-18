@@ -49,11 +49,11 @@ Common Settings commands
 
 #### Preview parameter commands
 
- -`-p, --preview	: Preview window settings <'x,y,w,h'>
--f, --fullscreen	: Fullscreen preview mode
--op, --opacity	: Preview window opacity (0-255)
--n, --nopreview	: Do not display a preview window
--dn, --dispnum` – Display on which to display the preview window (dispmanx/tvservice numbering)
+ - `-p <x>,<y>,<w>,<h>`, `--preview <x>,<y>,<w>,<h>` – Preview window settings
+ - `-f`, `--fullscreen`	– Fullscreen preview mode
+ - `-op <opacity>`, `--opacity <opacity>`	– Sets the preview window opacity (0-255)
+ - `-n`, `--nopreview`	– Do not display a preview window
+ - `-dn <display>`, `--dispnum <display>` – Display on which to display the preview window (dispmanx/tvservice numbering)
 
 Image parameter commands
 
@@ -199,13 +199,13 @@ Common Settings commands
 -md, --mode	: Force sensor mode. 0=auto. See docs for other modes available
 -gps, --gpsdexif	: Apply real-time GPS information to output (e.g. EXIF in JPG, annotation in video (requires libgps.so.23)
 
-Preview parameter commands
+#### Preview parameter commands
 
--p, --preview	: Preview window settings <'x,y,w,h'>
--f, --fullscreen	: Fullscreen preview mode
--op, --opacity	: Preview window opacity (0-255)
--n, --nopreview	: Do not display a preview window
--dn, --dispnum	: Display on which to display the preview window (dispmanx/tvservice numbering)
+ - `-p <x>,<y>,<w>,<h>`, `--preview <x>,<y>,<w>,<h>` – Preview window settings
+ - `-f`, `--fullscreen`	– Fullscreen preview mode
+ - `-op <opacity>`, `--opacity <opacity>`	– Sets the preview window opacity (0-255)
+ - `-n`, `--nopreview`	– Do not display a preview window
+ - `-dn <display>`, `--dispnum <display>` – Display on which to display the preview window (dispmanx/tvservice numbering)
 
 Image parameter commands
 
