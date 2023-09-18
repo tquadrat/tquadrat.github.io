@@ -24,19 +24,18 @@ Usage: `raspistill [options]`
  - `-s`, `--signal`	– Waits between captures for a `SIGUSR1` or `SIGUSR2` from another process
  - `-g`, `--gl`	– Draws the preview to texture instead of using the video render component
  - `-gc`, `--glcapture`	– Captures the GL frame-buffer instead of the camera image
- - 
--bm, --burst	: Enable 'burst capture mode'
--dt, --datetime	: Replace output pattern (%d) with DateTime (MonthDayHourMinSec)
--ts, --timestamp	: Replace output pattern (%d) with unix timestamp (seconds since 1970)
--fs, --framestart	: Starting frame number in output pattern(%d)
--rs, --restart	: JPEG Restart interval (default of 0 for none)
+ - `-bm`, `--burst`	– Enable 'burst capture mode'
+ - `-dt`, `--datetime`	– Replaces the output pattern `%d` with DateTime in the format "MonthDayHourMinSec"
+ - `-ts`, `--timestamp` – Replaces the output pattern `%d` with  the Unix timestamp (seconds since 1970-01-01T00:00:00 UTC)
+ - `-fs`, `--framestart`	– Sets the starting frame number to the output pattern `%d`
+ - `-rs [<interval>]`, `--restart [<interval>]`	– Sets the JPEG Restart interval (default of 0 for none)
 
-GL parameter commands
+#### GL parameter commands
 
--gs, --glscene	: GL scene square,teapot,mirror,yuv,sobel,vcsm_square
--gw, --glwin	: GL window settings <'x,y,w,h'>
+ - `-gs {square | teapot | mirror | yuv | sobel | vcsm_square}`, `--glscene {square | teapot | mirror | yuv | sobel | vcsm_square}` – GL scene
+ - `-gw <x>,<y>,<w>,<h>`, `--glwin <x>,<y>,<w>,<h>`	– GL window settings
 
-Common Settings commands
+#### Common Settings commands
 
 -?, --help	: This help information
 -w, --width	: Set image width <size>
@@ -274,3 +273,4 @@ off,low,med,high
 
   - [Repository with the Software](https://github.com/sunfounder/pan-tilt-hat.git)
 
+---
