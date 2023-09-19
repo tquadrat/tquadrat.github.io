@@ -37,7 +37,8 @@ Usage: `raspistill [options]`
 
 #### Common Settings commands
 
--?, --help	: This help information
+ - `-?`, `--help`	– Show this help information and terminate
+ - 
 -w, --width	: Set image width <size>
 -h, --height	: Set image height <size>
 -o, --output	: Output filename <filename> (to write to stdout, use '-o -'). If not specified, no file is saved
@@ -54,7 +55,7 @@ Usage: `raspistill [options]`
  - `-n`, `--nopreview`	– Do not display a preview window
  - `-dn <display>`, `--dispnum <display>` – Display on which to display the preview window (dispmanx/tvservice numbering)
 
-Image parameter commands
+#### Image parameter commands
 
 -sh, --sharpness	: Set image sharpness (-100 to 100)
 -co, --contrast	: Set image contrast (-100 to 100)
