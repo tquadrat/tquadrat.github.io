@@ -38,12 +38,12 @@ Usage: `raspistill [options]`
 #### Common Settings commands
 
  - `-?`, `--help`	– Show this help information and terminate
- - 
--w, --width	: Set image width <size>
--h, --height	: Set image height <size>
--o, --output	: Output filename <filename> (to write to stdout, use '-o -'). If not specified, no file is saved
--v, --verbose	: Output verbose information during run
--cs, --camselect	: Select camera <number>. Default 0
+ - `-w <size>`, `--width <size>` – Sets the image width
+ - `-h <size>`, `--height <size>` – Sets the image height
+ - `-o <filename>`, `--output <filename>` – Provides the output filename; to write to stdout, use `-o -`. If not specified, no file will be saved
+ - `-v`, `--verbose` – Output verbose information during run
+ - `-cs <number>`, `--camselect <number>` – Selects the camera; the default is camera `0`
+ - `
 -md, --mode	: Force sensor mode. 0=auto. See docs for other modes available
 -gps, --gpsdexif	: Apply real-time GPS information to output (e.g. EXIF in JPG, annotation in video (requires libgps.so.23)
 
@@ -57,9 +57,10 @@ Usage: `raspistill [options]`
 
 #### Image parameter commands
 
--sh, --sharpness	: Set image sharpness (-100 to 100)
--co, --contrast	: Set image contrast (-100 to 100)
--br, --brightness	: Set image brightness (0 to 100)
+- `-sh <sharpness>`, `--sharpness <sharpness>` – Sets the image sharpness (-100 to 100)
+- `-co <contrast>`, `--contrast <contrast>` – Sets the image contrast (-100 to 100)
+- `-br <brightness>`, `--brightness <brightness>` – Sets the image brightness (0 to 100)
+- `
 -sa, --saturation	: Set image saturation (-100 to 100)
 -ISO, --ISO	: Set capture ISO
 -vs, --vstab	: Turn on video stabilisation
