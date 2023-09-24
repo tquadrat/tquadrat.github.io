@@ -43,9 +43,24 @@ Usage: `raspistill [options]`
  - `-o <filename>`, `--output <filename>` – Provides the output filename; to write to stdout, use `-o -`. If not specified, no file will be saved
  - `-v`, `--verbose` – Output verbose information during run
  - `-cs <number>`, `--camselect <number>` – Selects the camera; the default is camera `0`
- - `
--md, --mode	: Force sensor mode. 0=auto. See docs for other modes available
--gps, --gpsdexif	: Apply real-time GPS information to output (e.g. EXIF in JPG, annotation in video (requires libgps.so.23)
+ - `-md <mode>`, `--mode <mode>` – Forces the sensor mode. Possible values for `mode` are
+   - `off`
+   - `auto`
+   - `night`
+   - `nightpreview`
+   - `backlight`
+   - `spotlight`
+   - `sports`
+   - `snow`
+   - `beach`
+   - `verylong`
+   - `fixedfps`
+   - `antishake`
+   - `fireworks`
+     
+   Default is `auto`.
+   
+ - `-gps`, `--gpsdexif` –	Applies real-time GPS information to the output (e.g. EXIF in JPG, annotation in video); requires libgps.so.23
 
 #### Preview parameter commands
 
@@ -93,7 +108,6 @@ Usage: `raspistill [options]`
 Notes
 
 Exposure mode options :
-off,auto,night,nightpreview,backlight,spotlight,sports,snow,beach,verylong,fixedfps,antishake,fireworks
 
 Flicker avoid mode options :
 off,auto,50hz,60hz
