@@ -17,6 +17,7 @@ The file `~/.local/jshell.startup` looks like this:
 ```Java
 import static java.lang.Math.*;
 import static java.lang.System.*;
+import static java.time.temporal.ChronoUnit.*;
 import static java.nio.file.Files.*;
 import static java.util.Objects.*;
 
