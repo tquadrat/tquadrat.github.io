@@ -38,6 +38,9 @@ An enhancement is described [here](https://unix.stackexchange.com/a/556267/28039
 # See bash(1) for more options
 HISTCONTROL=ignoreboth:erasedups
 
+# don't put simple commands to the history
+HISTIGNORE=cd:ls:"ls -la":exit
+
 # append to the history file, don't overwrite it
 shopt -s histappend
 
