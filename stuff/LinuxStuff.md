@@ -6,6 +6,8 @@ Some tips and tricks for the Shell, mainly for the Bash shell.
 
 ### History
 
+The *bash* history is a powerful feature for the work on the console of a Linux system.
+
 #### [Removing and avoiding Duplicates in the History](https://www.baeldung.com/linux/history-remove-avoid-duplicates)
 
 ##### Manual Deduplication
