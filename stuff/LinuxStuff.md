@@ -31,9 +31,7 @@ to `/etc/rc.local` or to `$HOME/.bashrc` and reboot.
 
 Some distributions may already set `$HISTCONTROL` in `$HOME/.bashrc`.
 
-An enhancement is described [here](https://unix.stackexchange.com/a/556267/280398)!
-
-This leads to a `$HOME/.bashrc` like this:
+An enhancement is described [here](https://unix.stackexchange.com/a/556267/280398). This leads to a `$HOME/.bashrc` like this:
 
 ```shell
 # don't put duplicate lines or lines starting with space in the history.
