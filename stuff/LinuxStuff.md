@@ -12,7 +12,7 @@ The *bash* history is a powerful feature for the work on the console of a Linux 
 
 ##### Manual Deduplication
 
-```shell
+```console
 $ export HISTCONTROL=ignoreboth:erasedups
 $ history -a
 $ history -w
@@ -24,7 +24,7 @@ This of course does not remove the duplicates that are already/still hold in mem
 ##### Make it permanent
 
 Add
-```Shell
+```shell
 export HISTCONTROL=ignoreboth:erasedups
 ```
 to `/etc/rc.local` or to `$HOME/.bashrc` and reboot.
@@ -55,4 +55,61 @@ HISTSIZE=5000
 HISTFILESIZE=15000
 ```
 
+## Miscellaneous Stuff
+
+Some useful tweaks and configuration settings for the Linux operating system and Linux tools.
+
+### Editors
+
+For most Linux distributions, `nano` is the default editor when working in a shell. But for various reasons, I prefer `joe`; it will be installed like this:
+```console
+$ sudo apt install joe
 ```
+
+#### Configure `joe`
+
+The global configuration files for the editor `joe` can be found in `/etc/joe`; the main configuration settings are in `/etc/joe/joerc`. If you want to make the configuration adjustments only for a single user, or if you do not have `root` access, you can copy that file to your home directory:
+
+```console
+$ cp /etc/joe/joerc ~/.joerc
+```
+My personal preferences are:
+```shell
+-indentc 32
+-istep 4
+-linums
+-mouse
+-rmargin 132
+-spaces
+-tab 4
+```
+
+To set `-mouse`, search for that string in the configuration file and move it to the fist column, to activate the option:
+```shell
+…
+-joe_state     Use ~/.joe_state file
+
+-mouse         Enable xterm mouse support.  When enabled, left-click will
+                position the cursor and left-click-drag will select blocks
+                For normal xterm cut and paste, hold the shift key down.
+
+ -joexterm      If you are using XTerm version 212 or higher, and if it wa
+                configured with --enable-paste64, set this flag: it allows
+                mouse cut & paste to work properly (text selected with the
+                mouse can be pasted into other application, and middle
+                button clicks paste into JOE).
+…
+```
+For the other settings, search for the string "` Default local options`" and add the options below the found line:
+```shell
+ Default local options
+-highlight
+-istep 4
+
+-indentc 32
+-linums
+-rmargin 132
+-spaces
+-tab 4
+```
+
