@@ -77,11 +77,25 @@ My personal preferences are:
 
  - `-indentc 32` – The indentation character (32 for space, 9 for tab).
  - `-istep 4` – The number of indentation columns.
+ - `-lightoff`– Turns off highlighting after block copy or move.
  - `-linums` – Enables line numbers on each line.
  - `-mouse` – Enables xterm mouse support. When enabled, left-click will position the cursor and left-click-drag will select blocks. For normal xterm cut and paste, hold the shift key down.
  - `-rmargin 132` – The right margin for the word wrap.
  - `-spaces` – Let TAB inserting spaces instead of tabs.
  - `-tab 4` – The tabulator width.
+
+To set `-lightoff`, search for that string in the configuration file and move it to the fist column, to activate the option:
+```
+…
+ -break_links
+		Delete file before writing, to break hard links
+		and symbolic links.
+
+-lightoff	Turn off highlighting after block copy or move
+
+ -exask		^KX always confirms file name
+…
+```
 
 To set `-mouse`, search for that string in the configuration file and move it to the fist column, to activate the option:
 ```
@@ -99,6 +113,7 @@ To set `-mouse`, search for that string in the configuration file and move it to
                 button clicks paste into JOE).
 …
 ```
+
 For the other settings, search for the string "` Default local options`" and add the options below the found line:
 ```
 …
