@@ -74,18 +74,17 @@ The global configuration files for the editor `joe` can be found in `/etc/joe`; 
 $ cp /etc/joe/joerc ~/.joerc
 ```
 My personal preferences are:
-```shell
--indentc 32
--istep 4
--linums
--mouse
--rmargin 132
--spaces
--tab 4
-```
+
+ - `-indentc 32` – The indentation character (32 for space, 9 for tab).
+ - `-istep 4` – The number of indentation columns.
+ - `-linums` – Enables line numbers on each line.
+ - `-mouse` – Enables xterm mouse support. When enabled, left-click will position the cursor and left-click-drag will select blocks. For normal xterm cut and paste, hold the shift key down.
+ - `-rmargin 132` – The right margin for the word wrap.
+ - `-spaces` – Let TAB inserting spaces instead of tabs.
+ - `-tab 4` – The tabulator width.
 
 To set `-mouse`, search for that string in the configuration file and move it to the fist column, to activate the option:
-```shell
+```
 …
 -joe_state     Use ~/.joe_state file
 
@@ -101,7 +100,8 @@ To set `-mouse`, search for that string in the configuration file and move it to
 …
 ```
 For the other settings, search for the string "` Default local options`" and add the options below the found line:
-```shell
+```
+…
  Default local options
 -highlight
 -istep 4
@@ -111,5 +111,7 @@ For the other settings, search for the string "` Default local options`" and add
 -rmargin 132
 -spaces
 -tab 4
+
+…
 ```
 
