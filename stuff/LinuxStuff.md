@@ -79,7 +79,6 @@ My personal preferences are:
  - `-istep 4` – The number of indentation columns.
  - `-lightoff`– Turns off highlighting after block copy or move.
  - `-linums` – Enables line numbers on each line.
- - `-mouse` – Enables xterm mouse support. When enabled, left-click will position the cursor and left-click-drag will select blocks. For normal xterm cut and paste, hold the shift key down.
  - `-rmargin 132` – The right margin for the word wrap.
  - `-spaces` – Let TAB inserting spaces instead of tabs.
  - `-tab 4` – The tabulator width.
@@ -94,23 +93,6 @@ To set `-lightoff`, search for that string in the configuration file and move it
 -lightoff	Turn off highlighting after block copy or move
 
  -exask		^KX always confirms file name
-…
-```
-
-To set `-mouse`, search for that string in the configuration file and move it to the fist column, to activate the option:
-```
-…
--joe_state     Use ~/.joe_state file
-
--mouse         Enable xterm mouse support.  When enabled, left-click will
-                position the cursor and left-click-drag will select blocks
-                For normal xterm cut and paste, hold the shift key down.
-
- -joexterm      If you are using XTerm version 212 or higher, and if it wa
-                configured with --enable-paste64, set this flag: it allows
-                mouse cut & paste to work properly (text selected with the
-                mouse can be pasted into other application, and middle
-                button clicks paste into JOE).
 …
 ```
 
