@@ -55,6 +55,16 @@ HISTSIZE=5000
 HISTFILESIZE=15000
 ```
 
+## Installing Gradle
+
+Gradle can be installed via `apt` as well as through `snap`, but both sources are usually not providing the latest versions. Therefore the recommended source is [SDKMAN!](https://sdkman.io/).
+
+To install the "Software Development Kit Manager", just execute
+
+```console
+$ curl -s "https://get.sdkman.io" | bash
+```
+
 ## Miscellaneous Stuff
 
 Some useful tweaks and configuration settings for the Linux operating system and Linux tools.
