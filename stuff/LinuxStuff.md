@@ -59,11 +59,33 @@ HISTFILESIZE=15000
 
 Gradle can be installed via `apt` as well as through `snap`, but both sources are usually not providing the latest versions. Therefore the recommended source is [SDKMAN!](https://sdkman.io/).
 
-To install the "Software Development Kit Manager", just execute
+To check whether "The Software Development Kit Manager" is installed already, execute
+
+```console
+$ sdk version
+```
+
+in a shell window. To install it, just execute
 
 ```console
 $ curl -s "https://get.sdkman.io" | bash
 ```
+
+followed by
+
+```console
+$ source "$HOME/.sdkman/bin/sdkman-init.sh"
+```
+
+Once you have SDKMAN! up and running, you can install Gradle through the command
+
+```console
+$ sdk install gradle 8.6
+```
+
+(here for version 8.6).
+
+For more information on the usage of SDKMAN!, see [here](https://sdkman.io/usage).
 
 ## Miscellaneous Stuff
 
