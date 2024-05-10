@@ -68,6 +68,7 @@ Important changes were made in [Java&nbsp;5](http://www.inf.unibz.it/~calvanese/
 - [HikariCP](https://github.com/brettwooldridge/HikariCP): A high-performance JDBC connection pool.
 - [ICU](https://www.google.com/url?q=https%3A%2F%2Funicode-org.github.io%2Ficu-docs%2Fapidoc%2Freleased%2Ficu4j%2F&sa=D&sntz=1&usg=AOvVaw1YNhEXLu7oP-dfkiCyiJMP): I18n utilities
   - For further details, see [here](#icu--international-components-for-unicode)
+- [JGit](https://git-scm.com/book/en/v2/Appendix-B%3A-Embedding-Git-in-your-Applications-JGit): Embedding Git in Java Applications 
 - [JavaFX](https://openjfx.io/): GUI for Java programs
 - [JavaMail](https://eclipse-ee4j.github.io/mail/): The email Handling Library for Java, now named JakartaMail, maintained by the Eclipse Foundation
 - [Lucene](https://lucene.apache.org/): Ultra-fast Searching from the Apache Foundation
