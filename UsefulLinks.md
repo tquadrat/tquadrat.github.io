@@ -64,6 +64,7 @@ Important changes were made in [Java&nbsp;5](http://www.inf.unibz.it/~calvanese/
 
 ### Additional Libraries
 - [ActiveMQ](https://activemq.apache.org/): Multi-Protocol Messaging
+- [CommonMark Java](https://github.com/commonmark/commonmark-java): A Java library for parsing and rendering [Markdown](https://daringfireball.net/projects/markdown/) text according to the [CommonMark specification](https://commonmark.org/). 
 - [H2 Database Engine](https://www.h2database.com/html/main.html): RDBMS implemented in Java
 - [HikariCP](https://github.com/brettwooldridge/HikariCP): A high-performance JDBC connection pool.
 - [ICU](https://www.google.com/url?q=https%3A%2F%2Funicode-org.github.io%2Ficu-docs%2Fapidoc%2Freleased%2Ficu4j%2F&sa=D&sntz=1&usg=AOvVaw1YNhEXLu7oP-dfkiCyiJMP): I18n utilities
