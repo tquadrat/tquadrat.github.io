@@ -44,7 +44,7 @@ Important changes were made in [Java&nbsp;5](http://www.inf.unibz.it/~calvanese/
 
 #### AWT and Swing
 - [Using Headless Mode in the Java SE Platform](https://www.oracle.com/technical-resources/articles/javase/headless.html)\
-  This article explains how to use the headless mode capabilities of the Java Platform, Standard Edition (Java SE, formerly referred to as J2SE). It is a little bit old, but still valid, as long AWT (and Swing) are part of the Java Platform.\
+  This article explains how to use the headless mode capabilities of the Java Platform, Standard Edition (Java SE, formerly referred to as J2SE). It is a little bit old, but still valid, as long as AWT (and Swing) are part of the Java Platform.\
   JavaFX does not provide a headless mode, but if `java.awt.headless="true"` is set, a JavaFX GUI will most probably not start, too.
 
 ### Java 17
@@ -52,22 +52,23 @@ Important changes were made in [Java&nbsp;5](http://www.inf.unibz.it/~calvanese/
 - [Java® Platform, Standard Edition & Java Development Kit Version 17 API Specification](https://docs.oracle.com/en/java/javase/17/docs/api/index.html)
 - [Java Language Specification](https://docs.oracle.com/javase/specs/jls/se17/html/index.html)
 
-### Java 18
-- [JDK 18 Documentation](https://docs.oracle.com/en/java/javase/18/)
-- [Java® Platform, Standard Edition & Java Development Kit Version 18 API Specification](https://docs.oracle.com/en/java/javase/18/docs/api/index.html)
-- [Java Language Specification](https://docs.oracle.com/javase/specs/jls/se18/html/index.html)
+### Java 21
+- [JDK 21 Documentation](https://docs.oracle.com/en/java/javase/21/)
+- [Java® Platform, Standard Edition & Java Development Kit Version 21 API Specification](https://docs.oracle.com/en/java/javase/21/docs/api/index.html)
+- [Java Language Specification](https://docs.oracle.com/javase/specs/jls/se21/html/index.html)
 
-### Java 19
-- [JDK 19 Documentation](https://docs.oracle.com/en/java/javase/19/)
-- [Java® Platform, Standard Edition & Java Development Kit Version 19 API Specification](https://docs.oracle.com/en/java/javase/19/docs/api/index.html)
-- [Java Language Specification](https://docs.oracle.com/javase/specs/jls/se19/html/index.html)
+### Java 22
+- [JDK 22 Documentation](https://docs.oracle.com/en/java/javase/22/)
+- [Java® Platform, Standard Edition & Java Development Kit Version 22 API Specification](https://docs.oracle.com/en/java/javase/22/docs/api/index.html)
+- [Java Language Specification](https://docs.oracle.com/javase/specs/jls/se22/html/index.html)
 
 ### Additional Libraries
 - [ActiveMQ](https://activemq.apache.org/): Multi-Protocol Messaging
-- [H2 Database Engine](https://www.h2database.com/html/main.html) 
-- [ICU](https://www.google.com/url?q=https%3A%2F%2Funicode-org.github.io%2Ficu-docs%2Fapidoc%2Freleased%2Ficu4j%2F&sa=D&sntz=1&usg=AOvVaw1YNhEXLu7oP-dfkiCyiJMP)
+- [H2 Database Engine](https://www.h2database.com/html/main.html): RDBMS implemented in Java
+- [HikariCP](https://github.com/brettwooldridge/HikariCP): A high-performance JDBC connection pool.
+- [ICU](https://www.google.com/url?q=https%3A%2F%2Funicode-org.github.io%2Ficu-docs%2Fapidoc%2Freleased%2Ficu4j%2F&sa=D&sntz=1&usg=AOvVaw1YNhEXLu7oP-dfkiCyiJMP): I18n utilities
   - For further details, see [here](#icu--international-components-for-unicode)
-- [JavaFX](https://openjfx.io/)
+- [JavaFX](https://openjfx.io/): GUI for Java programs
 - [JavaMail](https://eclipse-ee4j.github.io/mail/): The email Handling Library for Java, now named JakartaMail, maintained by the Eclipse Foundation
 - [Lucene](https://lucene.apache.org/): Ultra-fast Searching from the Apache Foundation
   - For further details, see [here](#lucene)
