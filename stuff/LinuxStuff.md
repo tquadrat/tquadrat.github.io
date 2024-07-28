@@ -153,6 +153,8 @@ HISTFILESIZE=15000
 
 ## Installing Java
 
+[This page](https://github.com/tquadrat/tquadrat.github.io/blob/main/stuff/jshellConfig.md#jshell-startup-configuration) described how `jshell` can be configured to run integrated into the Ubuntu terminal.
+
 ## Miscellaneous Stuff
 
 Some useful tweaks and configuration settings for the Linux operating system and Linux tools.
