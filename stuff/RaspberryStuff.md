@@ -1,6 +1,6 @@
 # The Raspberry
 
-Common information about the Raspberry Pi, my projects based on that computer, and other useful stuff around the "Pi".
+Common information about the Raspberry Pi, my projects based on that computer, and other useful stuff around the "Pi". Refer also to the [page with the Linux Stuff](https://github.com/tquadrat/tquadrat.github.io/blob/main/stuff/LinuxStuff.md#linux-stuff) for information related to the Linux operating system in general.
 
 ---
 ## [Raspberry Pi Documentation](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html)
