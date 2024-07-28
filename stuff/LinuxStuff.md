@@ -1,5 +1,12 @@
 # Linux Stuff
 
+## Basic Software
+
+This is a list of software that I will install on each Linux machine that I work with. Some are less useful on Raspberry&nbsp;Pi machines, others I do not need on desktops and/or laptops.
+
+| Ubuntu | Raspberry Pi OS |
+
+
 ## Shell Stuff
 
 Some tips and tricks for the Shell, mainly for the Bash shell.
