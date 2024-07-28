@@ -7,15 +7,25 @@ This is a list of software that I will install on each Linux machine that I work
 | Ubuntu Desktop | Ubuntu Laptop | Raspberry Pi OS |
 | --- | --- | --- |
 | `joe` | `joe` | `joe` |
+| Subversion | Subversion | Subversion |
+| `git` | `git` | `git` |
 | SDKMAN! | SDKMAN! | SDKMAN! |
 | Gradle | Gradle | Gradle |
+| Remmina | Remmina | |
+| | | xRDP |
+
+
+### `git`
+`git` is an SCM that excels for distributed source code management, but it is also used a lot for the distribution of software. It will be installed through `apt`.
+
+For my personal use, I prefer [Subversion](#subversion).
 
 ### Gradle
 The [Gradle Build Tool](https://gradle.org/) is useful to build software and manage all its dependencies. It should be installed on any machine that is used for software development.
 
 Gradle can be installed via `apt` as well as through `snap`, but both sources are usually not providing the latest versions. Therefore the recommended source is [SDKMAN!](https://sdkman.io/). See [here](#sdkman) on how to install "The Software Development Kit Manager" if not yet done.
 
-How to update the Gradle Wrapper is described [here](https://github.com/tquadrat/tquadrat.github.io/edit/main/stuff/LinuxStuff.md#configure-joe).
+How to update the Gradle Wrapper is described [here](#configure-joe).
 
 ### `joe`
 
@@ -23,18 +33,37 @@ How to update the Gradle Wrapper is described [here](https://github.com/tquadrat
 
 `joe` will be installed through `apt`. For the configuration of the editor, see [here](#configure-joe).
 
+### Remmina
+
+[Remmina](https://remmina.org/) is a tool to access remote systems through `ssh`, `sftp` and `rdp`. I usually install it through `apt` but if this is not working, see [here](https://remmina.org/how-to-install-remmina/).
+
 ### SDKMAN!
 
 [SDKMAN!](https://sdkman.io/) is a *packet manager* for software development tools. It will be installed through a shell command. Obviously it makes sense only on machines that are somehow used for software development.
 
 For more information on the usage of SDKMAN!, see [here](https://sdkman.io/usage).
 
+### Subversion
+
+[Apache Subversion](https://subversion.apache.org/) is another version control system, like [`git`](#git). When installed through `apt`, it brings both, the server and the client to the machine.
+
+Mainly the client command `svn` is needed, as I use a Subversion repository for the various configuration files I need (aside that I use it for my own software projects, too).
+
+### xRDP
+
+The server for the Remote Desktop protocol, mainly used on the Raspberry&nbsp;Pi systems. For details, see [here](https://github.com/tquadrat/tquadrat.github.io/blob/main/stuff/RaspberryStuff.md#remote-desktop-protocol).
+
 ### Installation Commands
 
-  - Through `apt` for `joe`:
-    ```console
-    sudo apt install joe
-    ```
+  - Through `apt` for `git`, `joe`, Remmina, Subversion and xRDP:
+    - Desktop, Laptop:
+      ```console
+      sudo apt install git joe reminna subversion
+      ```
+    - Raspberry&nbsp;Pi:
+      ```console
+      sudo apt install git joe xrdp subversion
+      ```
   - Through shell command for SDKMAN!:
 
     To check whether "The Software Development Kit Manager" is installed already, execute
