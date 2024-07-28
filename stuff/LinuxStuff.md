@@ -1,5 +1,10 @@
 # Linux Stuff
 
+  1. [Basix Software](#basic-software)
+  2. [Shell Stuff](#shell-stuff)
+  3. [Installing Java](#installing-java)
+  4. [Miscellaneous Stuff](#updating-the-gradle-wrapper)
+
 ## Basic Software
 
 This is a list of software that I will install on each Linux machine that I work with. Some are less useful on Raspberry&nbsp;Pi machines, others I do not need on desktops and/or laptops.
@@ -30,7 +35,7 @@ How to update the Gradle Wrapper is described [here](#configure-joe).
 
 ### Java
 
-The latest LTS version of the JDK needs to be available on all machines. Although it could be installed through [SDKMAN!](#sdkman), I prefer to install it manually.
+The latest LTS version of the JDK needs to be available on all machines. Although it could be installed through [SDKMAN!](#sdkman), I prefer to install it manually, the process is described [here](#installing-java).
 
 ### `joe`
 
@@ -59,6 +64,8 @@ Mainly the client command `svn` is needed, as I use a Subversion repository for 
 The server for the Remote Desktop protocol, mainly used on the Raspberry&nbsp;Pi systems. For details, see [here](https://github.com/tquadrat/tquadrat.github.io/blob/main/stuff/RaspberryStuff.md#remote-desktop-protocol).
 
 ### Installation Commands
+
+The installation of Java is described [here](#installing-java).
 
   - Through `apt` for `git`, `joe`, Remmina, Subversion and xRDP:
     - Desktop, Laptop:
@@ -143,6 +150,8 @@ trap historymerge EXIT
 HISTSIZE=5000
 HISTFILESIZE=15000
 ```
+
+## Installing Java
 
 ## Miscellaneous Stuff
 
