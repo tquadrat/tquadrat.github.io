@@ -5,8 +5,9 @@
 This is a list of software that I will install on each Linux machine that I work with. Some are less useful on Raspberry&nbsp;Pi machines, others I do not need on desktops and/or laptops.
 
 | Ubuntu Desktop | Ubuntu Laptop | Raspberry Pi OS |
-| --- | --- | --- |
+| :---: | :---: | :---: |
 | `joe` | `joe` | `joe` |
+| Java | Java | Java |
 | Subversion | Subversion | Subversion |
 | `git` | `git` | `git` |
 | SDKMAN! | SDKMAN! | SDKMAN! |
@@ -26,6 +27,10 @@ The [Gradle Build Tool](https://gradle.org/) is useful to build software and man
 Gradle can be installed via `apt` as well as through `snap`, but both sources are usually not providing the latest versions. Therefore the recommended source is [SDKMAN!](https://sdkman.io/). See [here](#sdkman) on how to install "The Software Development Kit Manager" if not yet done.
 
 How to update the Gradle Wrapper is described [here](#configure-joe).
+
+### Java
+
+The latest LTS version of the JDK needs to be available on all machines. Although it could be installed through [SDKMAN!](#sdkman), I prefer to install it manually.
 
 ### `joe`
 
