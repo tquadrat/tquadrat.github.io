@@ -118,6 +118,7 @@ Important changes were made in [Java&nbsp;5](http://www.inf.unibz.it/~calvanese/
 
 ## Markdown
 - [Basic Markdown writing and formatting (Github)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- [Codecademy Markdown Tutorial](https://www.codecademy.com/resources/docs/markdown)
 
 ---
 
