@@ -28,9 +28,9 @@ If the PiJuice GUI does not start, refer [to this article](https://github.com/Pi
 
 To enable the PiJuice Service that is required to configure the software, try this:
 ```bash
-$ sudo systemctl status pijuice.service
-$ sudo systemctl enable pijuice.service
-$ sudo systemctl restart pijuice.service
+sudo systemctl status pijuice.service
+sudo systemctl enable pijuice.service
+sudo systemctl restart pijuice.service
 ```
 
 ### Remote Desktop Protocol
@@ -47,7 +47,7 @@ From [Wikipedia](https://en.wikipedia.org/wiki/Remote_Desktop_Protocol):
 
 To use the *Remote Desktop Protocol* (RDP) to access the Raspberry&nbsp;Pi computer, the server software `xRDP` must be installed on it:
 ```bash
-$ sudo apt install xrdp
+sudo apt install xrdp
 ```
 
 Of course on the client machine (that one that displays the Raspi's desktop), a corresponding client software is required
@@ -55,7 +55,7 @@ Of course on the client machine (that one that displays the Raspi's desktop), a 
 #### Configuration Files
 
   - `/etc/xrdp/xrdp.ini` – The main configuration file; usually no changes required.
-  -  
+  - `/etc/xrdp/xrdp_keyboard.ini` – The keyboard configuration. 
 
 #### Black Screen after Login via `xRDP`
 
