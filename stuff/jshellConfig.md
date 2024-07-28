@@ -17,12 +17,13 @@ The file `~/.local/jshell.startup` looks like this:
 ```Java
 import static java.lang.Math.*;
 import static java.lang.System.*;
-import static java.time.temporal.ChronoUnit.*;
 import static java.nio.file.Files.*;
+import static java.time.temporal.ChronoUnit.*;
 import static java.util.Objects.*;
+import static java.util.regex.Pattern.*;
 
 import java.io.*;
-import java.math.*; // for BigDecimal and BigInteger
+import java.math.*;
 import java.time.*;
 import java.util.*;
 import java.util.regex.*;
