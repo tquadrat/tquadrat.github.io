@@ -19,12 +19,18 @@ This is a list of software that I will install on each Linux machine that I work
 | Gradle | Gradle | Gradle |
 | Remmina | Remmina | |
 | | | xRDP |
+| GParted | GParted | |
 
 
 ### `git`
 `git` is an SCM that excels for distributed source code management, but it is also used a lot for the distribution of software. It will be installed through `apt`.
 
 For my personal use, I prefer [Subversion](#subversion).
+
+### GParted
+GParted is a partition manager that allows to resize, copy, and move partitions without data loss. Can be useful also on a Raspberry&nbsp;Pi.
+
+Will be installed through `apt`.
 
 ### Gradle
 The [Gradle Build Tool](https://gradle.org/) is useful to build software and manage all its dependencies. It should be installed on any machine that is used for software development.
@@ -67,10 +73,10 @@ The server for the Remote Desktop protocol, mainly used on the Raspberry&nbsp;Pi
 
 The installation of Java is described [here](#installing-java).
 
-  - Through `apt` for `git`, `joe`, Remmina, Subversion and xRDP:
+  - Through `apt` for `git`, GParted, `joe`, Remmina, Subversion and xRDP:
     - Desktop, Laptop:
       ```console
-      sudo apt install git joe reminna subversion
+      sudo apt install git gparted joe reminna subversion
       ```
     - Raspberry&nbsp;Pi:
       ```console
