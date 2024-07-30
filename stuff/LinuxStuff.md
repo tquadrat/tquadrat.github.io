@@ -12,6 +12,8 @@ This is a list of software that I will install on each Linux machine that I work
 | Ubuntu Desktop | Ubuntu Laptop | Raspberry Pi OS |
 | :---: | :---: | :---: |
 | `joe` | `joe` | `joe` |
+| `curl` | `curl` | `curl` |
+| `wget` | `wget` | `wget` |
 | Java | Java | Java |
 | Subversion | Subversion | Subversion |
 | `git` | `git` | `git` |
@@ -20,12 +22,15 @@ This is a list of software that I will install on each Linux machine that I work
 | Remmina | Remmina | |
 | | | xRDP |
 | GParted | GParted | |
-| Filezilla | Filezilla | Filezilla<sup>*</sup> |
+| FileZilla | FileZilla | FileZilla<sup>*</sup> |
 
 <sup>*</sup> Only for systems with a GUI installed
 
-### Filezilla
-Filezilla is a graphical FTP client that also support SFTP. Use `apt` to install it.
+### `curl`
+`curl` is a command line tool for file transfer using the URL syntax. It is preinstalled on most Linux systems, but if not, it can be installed through `apt`.
+
+### FileZilla
+FileZilla is a graphical FTP client that supports also SFTP. Use `apt` to install it.
 
 ### `git`
 `git` is an SCM that excels for distributed source code management, but it is also used a lot for the distribution of software. It will be installed through `apt`.
@@ -70,6 +75,9 @@ For more information on the usage of SDKMAN!, see [here](https://sdkman.io/usage
 
 Mainly the client command `svn` is needed, as I use a Subversion repository for the various configuration files I need (aside that I use it for my own software projects, too).
 
+### `wget`
+`wget` is another command line to load files from the network. If not already installed, it can be made available through `apt`.
+
 ### xRDP
 
 The server for the Remote Desktop protocol, mainly used on the Raspberry&nbsp;Pi systems. For details, see [here](https://github.com/tquadrat/tquadrat.github.io/blob/main/stuff/RaspberryStuff.md#remote-desktop-protocol).
@@ -81,11 +89,15 @@ The installation of Java is described [here](#installing-java).
   - Through `apt` for `git`, GParted, `joe`, Remmina, Subversion and xRDP:
     - Desktop, Laptop:
       ```console
-      sudo apt install filezilla git gparted joe reminna subversion
+      sudo apt update
+      sudo apt full-upgrade -y
+      sudo apt install curl filezilla git gparted joe reminna subversion wget -y
       ```
     - Raspberry&nbsp;Pi:
       ```console
-      sudo apt install filezilla git joe xrdp subversion
+      sudo apt update
+      sudo apt full-upgrade -y
+      sudo apt install curl filezilla git joe subversion wget xrdp -y
       ```
   - Through shell command for SDKMAN!:
 
