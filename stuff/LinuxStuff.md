@@ -17,6 +17,7 @@ This is a list of software that I will install on each Linux machine that I work
 | Java | Java | Java |
 | Subversion | Subversion | Subversion |
 | `git` | `git` | `git` |
+| Git Credential Manager | Git Credential Manager | Git Credential Manager |
 | SDKMAN! | SDKMAN! | SDKMAN! |
 | Gradle | Gradle | Gradle |
 | Remmina | Remmina | |
@@ -36,6 +37,10 @@ FileZilla is a graphical FTP client that supports also SFTP. Use `apt` to instal
 `git` is an SCM that excels for distributed source code management, but it is also used a lot for the distribution of software. It will be installed through `apt`.
 
 For my personal use, I prefer [Subversion](#subversion).
+
+### Git Credential Manager
+The GCM is used to simplify working with Git repositories. The installation is described [here](https://github.com/git-ecosystem/git-credential-manager).
+
 
 ### GParted
 GParted is a partition manager that allows to resize, copy, and move partitions without data loss. Can be useful also on a Raspberry&nbsp;Pi.
