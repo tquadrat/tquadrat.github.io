@@ -20,7 +20,12 @@ This is a list of software that I will install on each Linux machine that I work
 | Remmina | Remmina | |
 | | | xRDP |
 | GParted | GParted | |
+| Filezilla | Filezilla | Filezilla<sup>*</sup> |
 
+<sup>*</sup> Only for systems with a GUI installed
+
+### Filezilla
+Filezilla is a graphical FTP client that also support SFTP. Use `apt` to install it.
 
 ### `git`
 `git` is an SCM that excels for distributed source code management, but it is also used a lot for the distribution of software. It will be installed through `apt`.
@@ -76,11 +81,11 @@ The installation of Java is described [here](#installing-java).
   - Through `apt` for `git`, GParted, `joe`, Remmina, Subversion and xRDP:
     - Desktop, Laptop:
       ```console
-      sudo apt install git gparted joe reminna subversion
+      sudo apt install filezilla git gparted joe reminna subversion
       ```
     - Raspberry&nbsp;Pi:
       ```console
-      sudo apt install git joe xrdp subversion
+      sudo apt install filezilla git joe xrdp subversion
       ```
   - Through shell command for SDKMAN!:
 
