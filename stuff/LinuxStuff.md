@@ -1,6 +1,6 @@
 # Linux Stuff
 
-  1. [Basix Software](#basic-software)
+  1. [Basic Software](#basic-software)
   2. [Shell Stuff](#shell-stuff)
   3. [Installing Java](#installing-java)
   4. [Miscellaneous Stuff](#updating-the-gradle-wrapper)
@@ -8,6 +8,8 @@
 ## Basic Software
 
 This is a list of software that I will install on each Linux machine that I work with. Some are less useful on Raspberry&nbsp;Pi machines, others I do not need on desktops and/or laptops.
+
+Configuration files and scripts can be found in the *ChangeManagement* repository .
 
 | Ubuntu Desktop | Ubuntu Laptop | Raspberry Pi OS |
 | :---: | :---: | :---: |
