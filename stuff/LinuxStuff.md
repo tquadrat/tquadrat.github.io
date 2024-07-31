@@ -93,7 +93,7 @@ The server for the Remote Desktop protocol, mainly used on the Raspberry&nbsp;Pi
 
 The installation of Java is described [here](#installing-java).
 
-  - Through `apt` for `git`, GParted, `joe`, Remmina, Subversion and xRDP:
+  - Through `apt` for FileZilla, `git`, GParted, `joe`, Remmina, Subversion and xRDP:
     - Desktop, Laptop:
       ```console
       sudo apt update
