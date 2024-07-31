@@ -122,7 +122,7 @@ The installation of Java is described [here](#installing-java).
     ```
   - Through SDKMAN! for Gradle:   
     ```console 
-    $ sdk install gradle 8.7
+    sdk install gradle 8.7
     ```
     (here for version 8.7).
 
@@ -337,7 +337,7 @@ or the specific version you want:
 The global configuration files for the editor `joe` can be found in `/etc/joe`; the main configuration settings are in `/etc/joe/joerc`. If you want to make the configuration adjustments only for a single user, or if you do not have `root` access, you can copy that file to your home directory:
 
 ```console
-$ cp /etc/joe/joerc ~/.joerc
+cp /etc/joe/joerc ~/.joerc
 ```
 My personal preferences are:
 
