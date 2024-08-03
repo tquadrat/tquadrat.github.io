@@ -122,9 +122,9 @@ The installation of Java is described [here](#installing-java).
     ```
   - Through SDKMAN! for Gradle:   
     ```console 
-    sdk install gradle 8.7
+    sdk install gradle
     ```
-    (here for version 8.7).
+    This will install the latest version and set it as the default.
 
 ## Shell Stuff
 
