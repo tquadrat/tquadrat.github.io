@@ -317,6 +317,10 @@ Although [SDKMAN!](https://sdkman.io/) also allows to install a JDK, I prefer to
 
 Some useful tweaks and configuration settings for the Linux operating system and Linux tools.
 
+### Setting up a Music Server
+
+How to setup a music server based on [OwnTone](https://owntone.github.io/owntone-server/) is described [here](MusicServer.md).
+
 ### Updating the Gradle Wrapper
 
 In most cases, a project is built using the [Gradle Wrapper](https://docs.gradle.org/current/userguide/gradle_wrapper.html). And of course, at some point the version of the wrapper needs to be updated when the Gradle version is updated.
