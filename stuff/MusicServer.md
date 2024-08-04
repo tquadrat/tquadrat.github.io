@@ -146,5 +146,9 @@ As I want to install it on a Raspberry&nbsp;Pi, I used the description provided 
       journalctl -xeu owntone.service
       systemctl status owntone.service
       ```
-      
-If you are going to use a remote app, pair it by going to http://owntone.local:3689/ and find the settings
+
+  11. Connect to the music server with a browser through the URL `http://<server>:3689/` and finish the configuration there.
+
+Finally I had to move the music files to the `~/Music` folder to make it available.
+
+For internet radio stations, I have created a `Radio.m3u` in `~/Music` that contains the links to the respective streams.
