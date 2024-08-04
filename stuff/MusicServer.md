@@ -81,7 +81,7 @@ As I want to install it on a Raspberry&nbsp;Pi, I used the description provided 
       23 
       24     # Log file and level
       25     # Available levels: fatal, log, warning, info, debug, spam
-      26     logfile = "/home/<user>/.local/share/owntonw/log/owntone.log"
+      26     logfile = "/home/<user>/.local/share/owntone/log/owntone.log"
       27     loglevel = log
       28 
      …
