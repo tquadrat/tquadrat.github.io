@@ -102,7 +102,7 @@ As I want to install it on a Raspberry&nbsp;Pi, I used the description provided 
       79     port = 3689
      …
       84     # Directories to index
-      85     directories = { "/home/<user>/Musik" }
+      85     directories = { "/home/<user>/Music" }
      …
      235 
      236     # Allows creating, deleting and modifying m3u playlists in the library directories.
@@ -142,6 +142,7 @@ As I want to install it on a Raspberry&nbsp;Pi, I used the description provided 
   10. Wait for the library scan to complete. The progress can be followed with one of the commands below:
       ```console
       tail -f /home/<user>/.local/share/owntone/log/owntone.log
+      sudo service owntone status
       journalctl -xeu owntone.service
       systemctl status owntone.service
       ```
