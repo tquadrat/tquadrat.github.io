@@ -18,6 +18,10 @@ Information on how to install the Raspberry Camera, and how to use it.
 Unsorted notes about various features of the Raspberry Pi and components to use with it.
 
 ---
+### Setting up a Music Server
+
+How to setup a music server based on [OwnTone](https://owntone.github.io/owntone-server/) is described [here](MusicServer.md). This software does not only run on a Raspberry&nbsp;Pi, but also on various other Linux versions.
+
 ### PiJuice
 
 The PiJuice hat provides a UPS to the Raspberry Pi. It provides also an RTC.
