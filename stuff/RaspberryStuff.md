@@ -12,6 +12,10 @@ The official documentation for Raspberry Pi computers and microcontrollers. The 
 
 Information on how to install the Raspberry Camera, and how to use it.
 
+## [The Raspi as USB Device](raspi/RaspiAsKeyboard.md)
+
+Information on how to use a Raspberry&nbsp;Pi as a USB device (like a keyboard or a harddrive) for another computer. Mainly Raspberry&nbsp;Pi&nbsp;Zero models are used for this purpose, but also Pi&nbsp;4 and Pi&nbsp;5 can be used this way.
+
 ---
 ## Miscellaneous
 
