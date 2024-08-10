@@ -144,4 +144,14 @@ You can find different descriptions on how to configure a Raspberry&nbsp;Pi&nbsp
       ef
       ```
       will by "typed" into it.
+
+### To drive it further
+
+A program that emulates a keyboard would need the codes for the keys. I have collected some links to lists with these data:
+  - [MightyPork's `usb_hid_keys.h`](https://gist.github.com/MightyPork/6da26e382a7ad91b5496ee55fdc73db2) – a C/C++ header file defining the key codes.
+  - [USB Keyboard Scan Codes](https://www.win.tue.nl/~aeb/linux/kbd/scancodes-14.html) – the USB specification of keycodes for keyboard positions, identified with key captions for the usual US layout.
+  - [HID-Tastatur-Scanncodes](https://www.heise.de/hintergrund/HID-Tastatur-Scanncodes-3150880.html) – Scanncodes für Tasten auf der USB-Tastatur nach HID-Standard.
+  - [“Keyboard/Keypad Page (0x07)” from “HID Usage Tables For Universal Serial Bus (USB)”, revision 1.22, issued April 5, 2021.](https://www.toomanyatoms.com/computer/usb_keyboard_codes.html) – This section is the Usage Page for key codes to be used in implementing a USB keyboard.
+  - [HID Usage Tables](https://usb.org/sites/default/files/hut1_21.pdf) - The complete specification
+
         
