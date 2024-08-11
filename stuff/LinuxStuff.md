@@ -6,6 +6,8 @@
   4. [Integrate Applications into the GUI Desktop](#integrate-applications-into-the-gui-desktop)
   5. [Miscellaneous Stuff](#updating-the-gradle-wrapper)
 
+---
+
 ## Basic Software
 
 This is a list of software that I will install on each Linux machine that I work with. Some are less useful on Raspberry&nbsp;Pi machines, others I do not need on desktops and/or laptops.
@@ -127,6 +129,8 @@ The installation of Java is described [here](#installing-java).
     ```
     This will install the latest version and set it as the default.
 
+---
+
 ## Shell Stuff
 
 Some tips and tricks for the Shell, mainly for the Bash shell.
@@ -181,6 +185,8 @@ trap historymerge EXIT
 HISTSIZE=5000
 HISTFILESIZE=15000
 ```
+
+---
 
 ## Installing Java
 
@@ -314,7 +320,67 @@ Although [SDKMAN!](https://sdkman.io/) also allows to install a JDK, I prefer to
      
 [This page](https://github.com/tquadrat/tquadrat.github.io/blob/main/stuff/jshellConfig.md#jshell-startup-configuration) describes how `jshell` can be configured to run integrated into the Ubuntu terminal.
 
+---
+
 ## Integrate Applications into the GUI Desktop
+
+Although Ubuntu and Raspberry&nbsp;Pi&nbsp;OS are using different GUIs, they integrate applications the same way: through the definition of `*.desktop` files.
+
+Some background is provided [here](https://specifications.freedesktop.org/desktop-entry-spec/latest/index.html), a description of the file format is provided [here](https://docs.fileformat.com/settings/desktop/).
+
+On the Raspberry&nbsp;Pi, the *Main Menu Editor* can be used to create the configuration for application, on Ubuntu you usually use a text editor like `joe`or *kwrite*.
+
+For applications that should be started from the *Desktop* ("*Schreibtisch*"), these files will be stored to `~/Desktop` or `~/Schreibtisch`, depending on the selected language. For the globally available applications, they can be found in `/usr/share/applications`. Per user configurations will be stored to `~/.local/share/applications`.
+
+### Application
+
+For an application, the respective `*.desktop` file looks like this:
+
+```desktop
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Version=1.5
+Name=<Human readable Name of the Application>
+GenericName=<Human readable Categorie of the Application>
+Comment=<Tooltip for the Application>
+Icon=<Path to a Logo>
+Exec=<Command Line for the Application>
+Path=<The Application's Working Directory>
+Terminal={true|false}
+
+```
+The values for the keys `Name`, `GenericName` and `Comment` allow to be provided in different languages, like below. The same mechanism can be used for `Icon`.
+
+```desktop
+…
+Name=MyProgram
+Name[de]=Mein Programm
+Name[en]=My Program
+Name[fr]=Mon Logiciel
+GenericName=AProgram
+GenericName[de]=Ein Programm
+GenericName[en]=A Program
+GenericName[fr]=Un Logiciel
+Comment=PieceOfSoftware
+Comment[de]=Ein Stück Software, das irgendetwas tut
+Comment[en]=A piece of software performing something
+Comment[fr]=Un logiciel qui fait quelque chose
+…
+```
+For a link, the `*.desktop` file may look like this:
+
+```desktop
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Link
+Version=1.5
+Name=<Human readable Name of the Link>
+Icon=<Path to a Logo>
+URL=<URL>
+```
+
+There are some more settings; the full details for the various values can be found in the [documentation](https://specifications.freedesktop.org/desktop-entry-spec/latest/recognized-keys.html)
 
 ### Switch off Confirmation Request when starting Scripts from Desktop
 
@@ -331,6 +397,8 @@ It says that the file (`Script.sh` in this case) appears to be executable, and i
 Unfortunately, this is also the case for `*.desktop` files that are placed to the *Desktop*, and in general, this behaviour is annoying and unwanted. But it can be switched of: in the *Settings* for the FileManager, there is an option under *General* that controls this behaviour; if you check "*Don't ask options on launch executable file*", you won't be asked again:
 
 ![FileManagerSettings](FileManagerSettings.png)
+
+---
 
 ## Miscellaneous Stuff
 
