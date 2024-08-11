@@ -2,6 +2,10 @@
 
 Ok, more than just links … but that's what I started with.
 
+## Contents
+
+  1. 
+
 ---
 ## [Linux Stuff](stuff/LinuxStuff.md)
 
@@ -13,9 +17,14 @@ Several tips and tricks for the Linux operating system, together with some usefu
 ## [Windows Stuff](stuff/WindowsStuff.md)
 
 ---
-## [The Raspberry](stuff/RaspberryStuff.md)
+## [The Raspberry&npsp;Pi](stuff/RaspberryStuff.md)
 
 Information about the Raspberry&npsp;Pi, projects based on that computer and related stuff.
+
+---
+## The Arduino and alike
+
+This section is under construction … ok, nothing here yet.
 
 ---
 ## Java
