@@ -12,13 +12,14 @@ Ok, more than just links … but that's what I started with.
   6. [Lua](#lua)
   7. [Python and Jython](#python-and-jython)
   8. [HTML](#html)
-  9. [XML](#xml)
-  10. [Markdown](#markdown)
-  11. [WebEx](#webex)
-  12. [ICU – International Components for Unicode](#icu--international-components-for-unicode)
-  13. [Lucene](#Lucene)
-  14. [TeX and LaTeX](#tex-and-latex)
-  15. [Graphics and Image Handling](#graphics-and-image-handling)
+  9. [XML](#xml-xslt-xsd)
+  10. [Scalable Vector Graphics (SVG)](#scalable-vector-graphics-svg)
+  11. [Markdown](#markdown)
+  12. [WebEx](#webex)
+  13. [ICU – International Components for Unicode](#icu--international-components-for-unicode)
+  14. [Lucene](#Lucene)
+  15. [TeX and LaTeX](#tex-and-latex)
+  16. [Graphics and Image Handling](#graphics-and-image-handling)
  
 ---
 ## [Linux Stuff](stuff/LinuxStuff.md)
@@ -142,9 +143,19 @@ Important changes were made in [Java&nbsp;5](http://www.inf.unibz.it/~calvanese/
 
 ## HTML
 
+- [SELFHTML-Wiki](https://wiki.selfhtml.org/wiki/HTML): For a long time, this had been *that* authoritative source for information and guidance regarding HTML and CSS in German language.
+
 ---
 
-## XML
+## XML, XSLT, XSD
+
+---
+
+## Scalable Vector Graphics (SVG)
+- [SVG 2.0 Standard](http://www.w3.org/TR/SVG/): The specification
+- [SVG Tutorial](https://www.w3schools.com/graphics/svg_intro.asp): The official SVG tutorial from W3.org
+- [SVG Tutorial (Aptico)](http://svg.tutorial.aptico.de/): An alternative tutorial
+- [SelfSVG - SVG-Grafiken selbst erstellen](http://www.selfsvg.info/): An unofficial user guide for SVG
 
 ---
 
