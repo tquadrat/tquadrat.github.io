@@ -3,6 +3,9 @@
 ---
 ## [Linux Stuff](stuff/LinuxStuff.md)
 
+Several tips and tricks for the Linux operating system, together with some useful links – not only for desktop and laptop installations, but also for the Raspberry&npsp;Pi. Some stuff is useful even for the Mac.
+
+---
 ## [MacOS Stuff](stuff/MacStuff.md)
 
 ## [Windows Stuff](stuff/WindowsStuff.md)
@@ -10,10 +13,12 @@
 ---
 ## [The Raspberry](stuff/RaspberryStuff.md)
 
-Information about the Raspberry Pi, projects based on that computer and related stuff.
+Information about the Raspberry&npsp;Pi, projects based on that computer and related stuff.
 
 ---
 ## Java
+
+Information about the Java programming language, the JVM itself, and about other programming languages that are implemented for the JVM.
 
 ### General Stuff
 
