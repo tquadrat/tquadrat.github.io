@@ -12,7 +12,7 @@ Ok, more than just links … but that's what I started with.
   6. [Lua](#lua)
   7. [Python and Jython](#python-and-jython)
   8. [HTML](#html)
-  9. [XML](#xml-xslt-xsd)
+  9. [XML, XSLT, XSD](#xml-xslt-xsd)
   10. [Scalable Vector Graphics (SVG)](#scalable-vector-graphics-svg)
   11. [Markdown](#markdown)
   12. [WebEx](#webex)
