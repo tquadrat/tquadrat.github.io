@@ -4,7 +4,20 @@ Ok, more than just links … but that's what I started with.
 
 ## Contents
 
-  1. 
+  1. [Linux Stuff](#linux-stuff)
+  2. [MacOS Stuff](#macos-stuff)
+  3. [The Raspberry&nbsp;Pi]()
+  4. []()
+  5. []()
+  6. []()
+  7. []()
+  8. []()
+  9. []()
+  10. []()
+  11. []()
+  12. []()
+  13. []()
+  14. []()
 
 ---
 ## [Linux Stuff](stuff/LinuxStuff.md)
@@ -17,7 +30,7 @@ Several tips and tricks for the Linux operating system, together with some usefu
 ## [Windows Stuff](stuff/WindowsStuff.md)
 
 ---
-## [The Raspberry&npsp;Pi](stuff/RaspberryStuff.md)
+## [The Raspberry&nbsp;Pi](stuff/RaspberryStuff.md)
 
 Information about the Raspberry&npsp;Pi, projects based on that computer and related stuff.
 
