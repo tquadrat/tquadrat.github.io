@@ -318,7 +318,19 @@ Although [SDKMAN!](https://sdkman.io/) also allows to install a JDK, I prefer to
 
 ### Switch off Confirmation Request when starting Scripts from Desktop
 
-When placing an executable on the *Desktop* on a Raspberry&nbsp;Pi, a confirmation window pops up
+When double-clicking on an executable file placed on the *Desktop* on a Raspberry&nbsp;Pi, a confirmation window pops up:
+
+![ExecutionConfirmation](ExecutionConfirmation.png)
+
+It says that the file (`Script.sh` in this case) appears to be executable, and it asks how to proceed. The options are:
+- Execute it
+- Execute it in a terminal
+- Open it (with the associated application; probably in a text editor)
+- Abort
+
+Unfortunately, this is also the case for `*.desktop` files that are placed to the *Desktop*, and in general, this behaviour is annoying and unwanted. But it can be switched of: in the *Settings* for the FileManager, there is an option under *General* that controls this behaviour; if you check "*Don't ask options on launch executable file*", you won't be asked again:
+
+![FileManagerSettings](FileManagerSettings.png)
 
 ## Miscellaneous Stuff
 
