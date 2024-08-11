@@ -1,5 +1,7 @@
 # Useful Links
 
+Ok, more than just links … but that's what I started with.
+
 ---
 ## [Linux Stuff](stuff/LinuxStuff.md)
 
