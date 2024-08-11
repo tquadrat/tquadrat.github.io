@@ -6,19 +6,20 @@ Ok, more than just links … but that's what I started with.
 
   1. [Linux Stuff](#linux-stuff)
   2. [MacOS Stuff](#macos-stuff)
-  3. [The Raspberry&nbsp;Pi]()
-  4. []()
-  5. []()
-  6. []()
-  7. []()
-  8. []()
-  9. []()
-  10. []()
-  11. []()
-  12. []()
-  13. []()
-  14. []()
-
+  3. [The Raspberry&nbsp;Pi](#the-raspberrypi)
+  4. [The Arduino and alike](#the-arduino-and-alike)
+  5. [Java](#java)
+  6. [Lua](#lua)
+  7. [Python and Jython](#python-and-jython)
+  8. [HTML](#html)
+  9. [XML](#xml)
+  10. [Markdown](#markdown)
+  11. [WebEx](#webex)
+  12. [ICU – International Components for Unicode](#icu--international-components-for-unicode)
+  13. [Lucene](#Lucene)
+  14. [TeX and LaTeX](#tex-and-latex)
+  15. [Graphics and Image Handling](#graphics-and-image-handling)
+ 
 ---
 ## [Linux Stuff](stuff/LinuxStuff.md)
 
