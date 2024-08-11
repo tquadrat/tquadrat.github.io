@@ -64,14 +64,16 @@ Important changes were made in [Java&nbsp;5](http://www.inf.unibz.it/~calvanese/
 
 ### Additional Libraries
 - [ActiveMQ](https://activemq.apache.org/): Multi-Protocol Messaging
+- [Bouncy Castle](https://www.bouncycastle.org/): The Bouncy Castle project offers open-source APIs for Java that support cryptography and cryptographic protocols. This is the de-facto standard for Java cryptography. 
 - [CommonMark Java](https://github.com/commonmark/commonmark-java): A Java library for parsing and rendering [Markdown](https://daringfireball.net/projects/markdown/) text according to the [CommonMark specification](https://commonmark.org/). 
 - [H2 Database Engine](https://www.h2database.com/html/main.html): RDBMS implemented in Java
 - [HikariCP](https://github.com/brettwooldridge/HikariCP): A high-performance JDBC connection pool.
 - [ICU](https://www.google.com/url?q=https%3A%2F%2Funicode-org.github.io%2Ficu-docs%2Fapidoc%2Freleased%2Ficu4j%2F&sa=D&sntz=1&usg=AOvVaw1YNhEXLu7oP-dfkiCyiJMP): I18n utilities
   - For further details, see [here](#icu--international-components-for-unicode)
-- [JGit](https://git-scm.com/book/en/v2/Appendix-B%3A-Embedding-Git-in-your-Applications-JGit): Embedding Git in Java Applications 
 - [JavaFX](https://openjfx.io/): GUI for Java programs
 - [JavaMail](https://eclipse-ee4j.github.io/mail/): The email Handling Library for Java, now named JakartaMail, maintained by the Eclipse Foundation
+- [Java Secure Channel](http://www.jcraft.com/jsch/?utm_source=sftptogo&utm_medium=blog): A pure Java implementation of the [SSH2](https://datatracker.ietf.org/wg/secsh/about/), allowing to use for example `sftp` file transfer inside a Java program.
+- [JGit](https://git-scm.com/book/en/v2/Appendix-B%3A-Embedding-Git-in-your-Applications-JGit): Embedding Git in Java Applications
 - [Lucene](https://lucene.apache.org/): Ultra-fast Searching from the Apache Foundation
   - For further details, see [here](#lucene)
 - [Neo4J](https://neo4j.com/): Graph Data Platform 
