@@ -3,7 +3,8 @@
   1. [Basic Software](#basic-software)
   2. [Shell Stuff](#shell-stuff)
   3. [Installing Java](#installing-java)
-  4. [Miscellaneous Stuff](#updating-the-gradle-wrapper)
+  4. [Integrate Applications into the GUI Desktop](#integrate-applications-into-the-gui-desktop)
+  5. [Miscellaneous Stuff](#updating-the-gradle-wrapper)
 
 ## Basic Software
 
@@ -312,6 +313,12 @@ Although [SDKMAN!](https://sdkman.io/) also allows to install a JDK, I prefer to
      ```   
      
 [This page](https://github.com/tquadrat/tquadrat.github.io/blob/main/stuff/jshellConfig.md#jshell-startup-configuration) describes how `jshell` can be configured to run integrated into the Ubuntu terminal.
+
+## Integrate Applications into the GUI Desktop
+
+### Switch off Confirmation Request when starting Scripts from Desktop
+
+When placing an executable on the *Desktop* on a Raspberry&nbsp;Pi, a confirmation window pops up
 
 ## Miscellaneous Stuff
 
