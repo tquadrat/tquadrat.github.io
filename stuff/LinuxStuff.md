@@ -338,10 +338,8 @@ Although [SDKMAN!](https://sdkman.io/) also allows to install a JDK, I prefer to
      **Warning**: Do not extract the tarball over an existing installation to avoid conflicts. Always extract it to a clean directory.
   4. Execute the `idea.sh` script from the extracted directory to run IntelliJ IDEA.
   5. Create a desktop entry﻿
-     1. In the main menu, go to `Tools | Create Desktop Entry`.
-     2. Click `Activities` in the top-left corner of the screen.
-     3. Click the grid button in the dash to show all applications.
-     4. To pin the app to the dash, right-click the IntelliJ IDEA icon and select `Add to Favorites`.
+     1. In the main menu, go to `Tools | Create Desktop Entry`. This requires that there is an open project.
+     2. To pin the app to the dash, right-click the IntelliJ IDEA icon and select `Add to Favorites` or `An Dash anheften`, depending on language and version of the operating system.
      
 ---
 
