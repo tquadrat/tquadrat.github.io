@@ -3,8 +3,9 @@
   1. [Basic Software](#basic-software)
   2. [Shell Stuff](#shell-stuff)
   3. [Installing Java](#installing-java)
-  4. [Integrate Applications into the GUI Desktop](#integrate-applications-into-the-gui-desktop)
-  5. [Miscellaneous Stuff](#updating-the-gradle-wrapper)
+  4. [Installing IntelliJ IDEA](#installing-intellij-idea)
+  5. [Integrate Applications into the GUI Desktop](#integrate-applications-into-the-gui-desktop)
+  6. [Miscellaneous Stuff](#updating-the-gradle-wrapper)
 
 ---
 
@@ -320,6 +321,28 @@ Although [SDKMAN!](https://sdkman.io/) also allows to install a JDK, I prefer to
      
 [This page](https://github.com/tquadrat/tquadrat.github.io/blob/main/stuff/jshellConfig.md#jshell-startup-configuration) describes how `jshell` can be configured to run integrated into the Ubuntu terminal.
 
+---
+
+## Installing IntelliJ IDEA
+
+  1. Download the tarball for the respective architecture from here: [https://www.jetbrains.com/idea/download/](https://www.jetbrains.com/idea/download/) to `~/Downloads`.
+  2. Create the folder for the software:
+     ```shell
+     cd /opt
+     sudo mkdir intelliJ
+     ```
+  3. For IntelliJ IDEA Community, run:
+     ```shell
+     sudo tar -xzf ~/Downloads/ideaIC-*.tar.gz -C /opt/intelliJ
+     ```
+     **Warning**: Do not extract the tarball over an existing installation to avoid conflicts. Always extract it to a clean directory.
+  4. Execute the `idea.sh` script from the extracted directory to run IntelliJ IDEA.
+  5. Create a desktop entry﻿
+     1. In the main menu, go to `Tools | Create Desktop Entry`.
+     2. Click `Activities` in the top-left corner of the screen.
+     3. Click the grid button in the dash to show all applications.
+     4. To pin the app to the dash, right-click the IntelliJ IDEA icon and select `Add to Favorites`.
+     
 ---
 
 ## Integrate Applications into the GUI Desktop
