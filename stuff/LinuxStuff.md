@@ -101,7 +101,7 @@ The installation of Java is described [here](#installing-java).
       ```console
       sudo apt update
       sudo apt full-upgrade -y
-      sudo apt install curl filezilla git gparted joe reminna subversion wget -y
+      sudo apt install curl filezilla git gparted joe remmina subversion wget -y
       ```
     - Raspberry&nbsp;Pi:
       ```console
