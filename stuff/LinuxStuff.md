@@ -4,8 +4,9 @@
   2. [Shell Stuff](#shell-stuff)
   3. [Installing Java](#installing-java)
   4. [Installing IntelliJ IDEA](#installing-intellij-idea)
-  5. [Integrate Applications into the GUI Desktop](#integrate-applications-into-the-gui-desktop)
-  6. [Miscellaneous Stuff](#updating-the-gradle-wrapper)
+  5. [Installing Arduino IDE](#installing-arduino-ide)
+  6. [Integrate Applications into the GUI Desktop](#integrate-applications-into-the-gui-desktop)
+  7. [Miscellaneous Stuff](#updating-the-gradle-wrapper)
 
 ---
 
@@ -341,6 +342,43 @@ Although [SDKMAN!](https://sdkman.io/) also allows to install a JDK, I prefer to
      1. In the main menu, go to `Tools | Create Desktop Entry`. This requires that there is an open project.
      2. To pin the app to the dash, right-click the IntelliJ IDEA icon and select `Add to Favorites` or `An Dash anheften`, depending on language and version of the operating system.
      
+---
+
+## Installing Arduino IDE
+
+  1. Download the latest version of the Arduino IDE from [https://www.arduino.cc/en/software](https://www.arduino.cc/en/software) to `~/Downloads`.
+     
+     For an installation on an Intel desktop or laptop machine select the version from the "Download Options" at the top of the page; preferred is the `*.zip` file.
+
+     For the installation on a Raspberry Pi, scroll down to the Legacy IDE version, and there select either "Linux ARM 32 bits" or "Linux ARM 64 bits", depending on the OS version you installed on the Raspi.
+
+  2. If not yet done, create a folder `~/Programs` or `~/Programme`, depending on the languages settings of your operating system.
+  3. Extract the downloaded file to Programs folder: `unzip ~/Downloads/arduino* -d ~/Programs`.
+
+---
+
+## Installing Go
+
+  1. Download the latest version of the Go development environment from [https://go.dev/dl/](https://go.dev/dl/) to `~/Downloads`.
+  2. Remove any previous Go installation by deleting the `/usr/local/go` folder (if it exists), then extract the archive you just downloaded into `/usr/local`, creating a fresh Go tree in `/usr/local/go`:
+     ```shell
+     sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzvf go1.23.2.linux-amd64.tar.gz
+     ```
+     Do not untar the archive into an existing `/usr/local/go tree`! This is known to produce broken Go installations.
+  3. Add `/usr/local/go/bin` to the `PATH` environment variable.
+
+     You can do this by adding the following line to your `$HOME/.profile` or `/etc/profile` (for a system-wide installation):
+     ```shell 
+     export PATH=$PATH:/usr/local/go/bin
+     ```
+     **Note**: Changes made to a profile file may not apply until the next time you log into your computer. To apply the changes immediately, just run the shell commands directly or execute them from the profile using a command such as `source $HOME/.profile`.
+
+   4. Verify that you've installed Go by opening a command prompt and typing the following command:
+      ```shell
+      go version
+      ```
+      Confirm that the command prints the installed version of Go.
+      
 ---
 
 ## Integrate Applications into the GUI Desktop
