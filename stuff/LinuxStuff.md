@@ -404,6 +404,17 @@ Unfortunately, this is also the case for `*.desktop` files that are placed to th
 
 Some useful tweaks and configuration settings for the Linux operating system and Linux tools.
 
+### `sudo` without Password
+
+If you do not want to enter your password all the time you have to use `sudo`, you create a file `010_<YourUser>-nopassword` to `/etc/sudoers.d` with the content below:
+
+```
+<YourUser> ALL=(ALL) NOPASSWD: ALL
+```
+Of course `<YourUser>` must be replaced by your username.
+
+The file may be writable only for `root`.
+
 ### Setting up a Music Server
 
 How to setup a music server based on [OwnTone](https://owntone.github.io/owntone-server/) is described [here](MusicServer.md).
