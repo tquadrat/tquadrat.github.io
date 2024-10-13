@@ -5,8 +5,9 @@
   3. [Installing Java](#installing-java)
   4. [Installing IntelliJ IDEA](#installing-intellij-idea)
   5. [Installing Arduino IDE](#installing-arduino-ide)
-  6. [Integrate Applications into the GUI Desktop](#integrate-applications-into-the-gui-desktop)
-  7. [Miscellaneous Stuff](#updating-the-gradle-wrapper)
+  6. [Installing Go](#installing-go)
+  7. [Integrate Applications into the GUI Desktop](#integrate-applications-into-the-gui-desktop)
+  8. [Miscellaneous Stuff](#updating-the-gradle-wrapper)
 
 ---
 
