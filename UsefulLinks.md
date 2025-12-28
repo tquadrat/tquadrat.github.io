@@ -24,7 +24,7 @@ Ok, more than just links … but that's what I started with.
 ---
 ## [Linux Stuff](stuff/LinuxStuff.md)
 
-Several tips and tricks for the Linux operating system, together with some useful links – not only for desktop and laptop installations, but also for the Raspberry&npsp;Pi. Some stuff is useful even for the Mac.
+Several tips and tricks for the Linux operating system, together with some useful links – not only for desktop and laptop installations, but also for the Raspberry&nbsp;Pi. Some stuff is useful even for the Mac.
 
 ---
 ## [MacOS Stuff](stuff/MacStuff.md)
