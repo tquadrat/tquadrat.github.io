@@ -34,7 +34,7 @@ Several tips and tricks for the Linux operating system, together with some usefu
 ---
 ## [The Raspberry&nbsp;Pi](stuff/RaspberryStuff.md)
 
-Information about the Raspberry&npsp;Pi, projects based on that computer and related stuff.
+Information about the Raspberry&nbsp;Pi, projects based on that computer and related stuff.
 
 ---
 ## The Arduino and alike
