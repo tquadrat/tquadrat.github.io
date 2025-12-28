@@ -27,7 +27,7 @@ Information on how to use a Raspberry&nbsp;Pi as a USB device (like a keyboard o
 
 The Compute Modules are an alternative to a 'real' Raspberry&nbsp;Pi for the use in embedded systems. They lack the connectors of the Raspberry&nbsp;Pi, these needs to be provided by the host board. But they come with built-in eMMC memory (if not the lite version), so there is no need for an external MicroSD card for the operating system.
 
-How to install the operating system on a CM5 is described [here](InstallCM.md).
+How to install the operating system on a CM5 is described [here](raspi/InstallCM.md).
 
 ---
 ## Miscellaneous
