@@ -2,6 +2,12 @@
 
 Common information about the Raspberry Pi, my projects based on that computer, and other useful stuff around the "Pi". Refer also to the [page with the Linux Stuff](https://github.com/tquadrat/tquadrat.github.io/blob/main/stuff/LinuxStuff.md#linux-stuff) for information related to the Linux operating system in general.
 
+   1. [General Documentation](#raspberry-pi-documentation)
+   2. [The Raspi Camera](#the-raspi-camera)
+   3. [The Raspi as a USB Device](#the-raspi-as-a-usb-device)
+   4. [Installing a Compute Module](#installing-a-compute-module)
+   5. [Miscellaneous](#miscellaneous)
+
 ---
 ## [Raspberry Pi Documentation](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html)
 
@@ -17,9 +23,20 @@ Information on how to install the Raspberry Camera, and how to use it.
 Information on how to use a Raspberry&nbsp;Pi as a USB device (like a keyboard or a harddrive) for another computer. Mainly Raspberry&nbsp;Pi&nbsp;Zero models are used for this purpose, but also Pi&nbsp;4 and Pi&nbsp;5 can be used this way.
 
 ---
+## Installing a Compute Module
+
+The Compute Modules are an alternative to a 'real' Raspberry&nbsp;Pi for the use in embedded systems. They lack the connectors of the Raspberry&nbsp;Pi, these needs to be provided by the host board. But they come with built-in eMMC memory (if not the lite version), so there is no need for an external MicroSD card for the operating system.
+
+How to install the operating system on a CM5 is described [here](InstallCM.md).
+
+---
 ## Miscellaneous
 
 Unsorted notes about various features of the Raspberry Pi and components to use with it.
+
+1. [Setting up a Music Server](#setting-up-a-music-server)
+2. [PiJuice](#pijuice)
+3. [The Remote Desktop Protocol](#the-remote-desktop-protocol)
 
 ---
 ### Setting up a Music Server
@@ -41,7 +58,7 @@ sudo systemctl enable pijuice.service
 sudo systemctl restart pijuice.service
 ```
 
-### Remote Desktop Protocol
+### The Remote Desktop Protocol
 
 From [Wikipedia](https://en.wikipedia.org/wiki/Remote_Desktop_Protocol): 
 
