@@ -17,21 +17,22 @@ This is a list of software that I will install on each Linux machine that I work
 
 Configuration files and scripts can be found in the *ChangeManagement* repository .
 
-| Ubuntu Desktop | Ubuntu Laptop | Raspberry Pi OS |
-| :---: | :---: | :---: |
-| `joe` | `joe` | `joe` |
-| `curl` | `curl` | `curl` |
-| `wget` | `wget` | `wget` |
-| Java | Java | Java |
-| Subversion | Subversion | Subversion |
-| `git` | `git` | `git` |
-| Git Credential Manager | Git Credential Manager | Git Credential Manager |
-| SDKMAN! | SDKMAN! | SDKMAN! |
-| Gradle | Gradle | Gradle |
-| Remmina | Remmina | |
-| | | xRDP |
-| GParted | GParted | |
-| FileZilla | FileZilla | FileZilla<sup>*</sup> |
+| | Ubuntu Desktop | Ubuntu Laptop | Raspberry Pi OS |
+| :---: | :---: | :---: | :---: |
+| `joe` | x | x | x |
+| `curl` | x | `curl` | `curl` |
+| `wget` | x | `wget` | `wget` |
+| Java | x | x | x |
+| Python 3 | x | x | x |
+| Subversion | x | x | x |
+| `git` | x | `git` | `git` |
+| Git Credential Manager | x | x | x |
+| SDKMAN! | x | x | x |
+| Gradle | x | x | x |
+| Remmina | x | x | x<sup>*</sup> |
+| xRDP | | | x |
+| GParted | x | x | x<sup>*</sup> |
+| FileZilla | x | x | x<sup>*</sup> |
 
 <sup>*</sup> Only for systems with a GUI installed
 
@@ -72,6 +73,10 @@ The latest LTS version of the JDK needs to be available on all machines. Althoug
 
 `joe` will be installed through `apt`. For the configuration of the editor, see [here](#configure-joe).
 
+### Python 3
+
+Python is an easy-to-learn multi-purpose programming language. Usually the latest version will be installed together with the operating system.
+
 ### Remmina
 
 [Remmina](https://remmina.org/) is a tool to access remote systems through `ssh`, `sftp` and `rdp`. I usually install it through `apt` but if this is not working, see [here](https://remmina.org/how-to-install-remmina/).
@@ -89,7 +94,7 @@ For more information on the usage of SDKMAN!, see [here](https://sdkman.io/usage
 Mainly the client command `svn` is needed, as I use a Subversion repository for the various configuration files I need (aside that I use it for my own software projects, too).
 
 ### `wget`
-`wget` is another command line to load files from the network. If not already installed, it can be made available through `apt`.
+`wget` is another command line tool to load files from the network. If not already installed, it can be made available through `apt`.
 
 ### xRDP
 
@@ -110,7 +115,7 @@ The installation of Java is described [here](#installing-java).
       ```console
       sudo apt update
       sudo apt full-upgrade -y
-      sudo apt install curl filezilla git joe subversion wget xrdp -y
+      sudo apt install curl filezilla git joe remmina subversion wget xrdp -y
       ```
   - Through shell command for SDKMAN!:
 
