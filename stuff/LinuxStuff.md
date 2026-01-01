@@ -20,12 +20,12 @@ Configuration files and scripts can be found in the *ChangeManagement* repositor
 | | Ubuntu Desktop | Ubuntu Laptop | Raspberry Pi OS |
 | :---: | :---: | :---: | :---: |
 | `joe` | x | x | x |
-| `curl` | x | `curl` | `curl` |
-| `wget` | x | `wget` | `wget` |
+| `curl` | x | x | x |
+| `wget` | x | x | x |
 | Java | x | x | x |
 | Python 3 | x | x | x |
 | Subversion | x | x | x |
-| `git` | x | `git` | `git` |
+| `git` | x | x | x |
 | Git Credential Manager | x | x | x |
 | SDKMAN! | x | x | x |
 | Gradle | x | x | x |
