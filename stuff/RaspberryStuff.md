@@ -35,9 +35,10 @@ How to install the operating system on a CM5 is described [here](raspi/InstallCM
 Unsorted notes about various features of the Raspberry Pi and components to use with it.
 
 1. [Switching off the Undervoltage Warning](#switching-off-the-undervoltage-warning)
-2. [Setting up a Music Server](#setting-up-a-music-server)
-3. [PiJuice](#pijuice)
-4. [The Remote Desktop Protocol](#the-remote-desktop-protocol)
+2. [Getting rid of `/dev/zram0`](#getting-rid-of-devzram0)
+3. [Setting up a Music Server](#setting-up-a-music-server)
+4. [PiJuice](#pijuice)
+5. [The Remote Desktop Protocol](#the-remote-desktop-protocol)
 
 ---
 ### Switching off the Undervoltage Warning
@@ -109,6 +110,19 @@ If your problem is really only the incomplete communication between the Raspi an
    * **Undervoltage Warnings:** The small yellow lightning bolt icon (or a warning in the upper right corner) will continue to appear if the voltage drops below 4.63V.
 
 **Important for CM5 users:** Here the behaviour depends heavily on the **carrier board**. Some boards have their own current regulation, which tricks the module into thinking there's enough power, while others pass the CM5 warning directly through.
+
+### Getting rid of `/dev/zram0`
+
+When you install the Raspberry&nbsp;Pi&nbsp;OS that is based on Debian GNU/Linux&nbsp;13 (codenamed "trixie"), it uses a device `/dev/zram0` for swapping.
+
+That device resides in memory and eats up valuable resources there (but is very fast). When your system has an SSD installed, you should consider to used a SWAP partition instead. How to setup this is explained quite well at various locations in the web.
+
+What's missing is how to to get rid of the `/dev/zram0`. There are a lot of different descriptions, especially when you ask your favourite AI, but none worked for me (at 2026-01-13). But finally I found the solution: remove the package `rpi-swap` (and, when you are at this point, also `zram-tools`), and the device is gone!
+
+```bash
+sudo apt purge rpi-swap zram-tools
+sudo apt autoremove
+``` 
 
 ### Setting up a Music Server
 
