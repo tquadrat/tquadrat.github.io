@@ -33,6 +33,7 @@ Configuration files and scripts can be found in the *ChangeManagement* repositor
 | xRDP | | | x |
 | GParted | x | x | x<sup>*</sup> |
 | FileZilla | x | x | x<sup>*</sup> |
+| Seahorse | | | x<sup>*</sup> |
 
 <sup>*</sup> Only for systems with a GUI installed
 
@@ -87,6 +88,10 @@ Python is an easy-to-learn multi-purpose programming language. Usually the lates
 
 For more information on the usage of SDKMAN!, see [here](https://sdkman.io/usage).
 
+### Seahorse
+
+Seahorse is a UI tool for the management of secrets, in particular for keyrings.
+
 ### Subversion
 
 [Apache Subversion](https://subversion.apache.org/) is another version control system, like [`git`](#git). When installed through `apt`, it brings both, the server and the client to the machine.
@@ -115,7 +120,7 @@ The installation of Java is described [here](#installing-java).
       ```console
       sudo apt update
       sudo apt full-upgrade -y
-      sudo apt install curl filezilla git joe remmina subversion wget xrdp -y
+      sudo apt install curl filezilla git joe remmina seahorse subversion wget xrdp -y
       ```
   - Through shell command for SDKMAN!:
 
