@@ -464,7 +464,7 @@ It says that the file (`Script.sh` in this case) appears to be executable, and i
 - Open it (with the associated application; probably in a text editor)
 - Abort
 
-Unfortunately, this is also the case for `*.desktop` files that are placed to the *Desktop*, and in general, this behaviour is annoying and unwanted. But it can be switched of: in the *Settings* for the FileManager, there is an option under *General* that controls this behaviour; if you check "*Don't ask options on launch executable file*", you won't be asked again:
+Unfortunately, this is also the case for `*.desktop` files that are placed to the *Desktop*, and in general, this behaviour is annoying and unwanted. But it can be switched off: in the *Settings* for the FileManager, there is an option under *General* that controls this behaviour; if you check "*Don't ask options on launch executable file*", you won't be asked again:
 
 ![FileManagerSettings](FileManagerSettings.png)
 
