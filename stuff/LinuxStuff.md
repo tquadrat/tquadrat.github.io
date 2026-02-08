@@ -376,16 +376,24 @@ Although [SDKMAN!](https://sdkman.io/) also allows to install a JDK, I prefer to
      sudo rm -rf /opt/go && sudo tar -C /opt -xzvf ~/Downloads/go*.tar.gz
      ```
      Do not untar the archive into an existing `/opt/go` tree! This is known to produce broken Go installations.
-  3.    
-  4. Add `/usr/local/go/bin` to the `PATH` environment variable.
-
-     You can do this by adding the following line to your `$HOME/.profile` or `/etc/profile` (for a system-wide installation):
-     ```shell 
-     export PATH=$PATH:/usr/local/go/bin
+  3. Rename `/opt/go` to `/opt/go1.25.7` or whatever the current version of the software is.
+     ```shell
+     sudo mv /opt/go /opt/go1.25.7
      ```
-     **Note**: Changes made to a profile file may not apply until the next time you log into your computer. To apply the changes immediately, just run the shell commands directly or execute them from the profile using a command such as `source $HOME/.profile`.
+  4. Create a symbolic link for the new folder:
+     ```shell
+     sudo ln -s /opt/go1.25.7 /opt/go
+     ```   
+  5. Add the environment variable for to `$HOME/.bashrc`:
+     ```shell 
+     # Go Environment Settings
+     export GOROOT=/opt/go
+     export GOPATH=$HOME/go
+     export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+     ```
+     **Note**: Changes made to a profile file may not apply until the next time you log into your computer. To apply the changes immediately, just run the shell commands directly or execute them from the profile using a command such as `source $HOME/.bashrc`.
 
-   5. Verify that you've installed Go by opening a command prompt and typing the following command:
+   6. Verify that you've installed Go by opening a command prompt and typing the following command:
       ```shell
       go version
       ```
