@@ -377,7 +377,7 @@ Although [SDKMAN!](https://sdkman.io/) also allows to install a JDK, I prefer to
      ``´
   3. Delete the symbolic link `/opt/go` (if it exists), then extract the archive you just downloaded into `/opt`, creating a fresh Go tree in `/opt/go`:
      ```shell
-     sudo rm -rf /opt/go && sudo tar -C /opt -xzvf ~/Downloads/go*.tar.gz
+     sudo rm /opt/go && sudo tar -C /opt -xzvf ~/Downloads/go*.tar.gz
      ```
      Do not untar the archive into an existing `/opt/go` tree! This is known to produce broken Go installations.
   4. Rename `/opt/go` to `/opt/go1.25.7` or whatever the current version of the software is.
