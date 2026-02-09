@@ -27,6 +27,7 @@ Configuration files and scripts can be found in the *ChangeManagement* repositor
 | Subversion | x | x | x |
 | `git` | x | x | x |
 | Git Credential Manager | x | x | x |
+| go | x | x | x |
 | SDKMAN! | x | x | x |
 | Gradle | x | x | x |
 | Remmina | x | x | x<sup>*</sup> |
@@ -51,6 +52,8 @@ For my personal use, I prefer [Subversion](#subversion).
 ### Git Credential Manager
 The GCM is used to simplify working with Git repositories. The installation is described [here](https://github.com/git-ecosystem/git-credential-manager).
 
+### go
+go (or golang) is a multi-purpose programming language. See [go.dev](https://go.dev) for details.
 
 ### GParted
 GParted is a partition manager that allows to resize, copy, and move partitions without data loss. Can be useful also on a Raspberry&nbsp;Pi.
@@ -388,7 +391,7 @@ Although [SDKMAN!](https://sdkman.io/) also allows to install a JDK, I prefer to
      ```shell
      sudo ln -s /opt/go1.25.7 /opt/go
      ```   
-  6. Add the environment variable for to `$HOME/.bashrc`:
+  6. Add the environment variables for to `$HOME/.bashrc`:
      ```shell 
      # Go Environment Settings
      export GOROOT=/opt/go
@@ -397,7 +400,9 @@ Although [SDKMAN!](https://sdkman.io/) also allows to install a JDK, I prefer to
      ```
      **Note**: Changes made to a profile file may not apply until the next time you log into your computer. To apply the changes immediately, just run the shell commands directly or execute them from the profile using a command such as `source $HOME/.bashrc`.
 
-   7. Verify that you've installed Go by opening a command prompt and typing the following command:
+	 Alternatively, the environment can be placed into `/etc/profile`, to make them system-wide available.
+
+   8. Verify that you've installed Go by opening a command prompt and typing the following command:
       ```shell
       go version
       ```
