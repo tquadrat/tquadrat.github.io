@@ -370,21 +370,25 @@ Although [SDKMAN!](https://sdkman.io/) also allows to install a JDK, I prefer to
 
 ## Installing Go
 
-  1. Download the latest version of the Go development environment from [https://go.dev/dl/](https://go.dev/dl/) to `~/Downloads`.
-  2. Delete the symbolic link `/opt/go` (if it exists), then extract the archive you just downloaded into `/opt`, creating a fresh Go tree in `/opt/go`:
+  1. Download the latest version of the Go development environment from [https://go.dev/dl/](https://go.dev/dl/) to `~/Downloads`. Alternatively, call `wget` in that folder:
+     ```shell
+     # Verify the version!
+     wget https://go.dev/dl/go1.25.7.linux-arm64.tar.gz
+     ``´
+  3. Delete the symbolic link `/opt/go` (if it exists), then extract the archive you just downloaded into `/opt`, creating a fresh Go tree in `/opt/go`:
      ```shell
      sudo rm -rf /opt/go && sudo tar -C /opt -xzvf ~/Downloads/go*.tar.gz
      ```
      Do not untar the archive into an existing `/opt/go` tree! This is known to produce broken Go installations.
-  3. Rename `/opt/go` to `/opt/go1.25.7` or whatever the current version of the software is.
+  4. Rename `/opt/go` to `/opt/go1.25.7` or whatever the current version of the software is.
      ```shell
      sudo mv /opt/go /opt/go1.25.7
      ```
-  4. Create a symbolic link for the new folder:
+  5. Create a symbolic link for the new folder:
      ```shell
      sudo ln -s /opt/go1.25.7 /opt/go
      ```   
-  5. Add the environment variable for to `$HOME/.bashrc`:
+  6. Add the environment variable for to `$HOME/.bashrc`:
      ```shell 
      # Go Environment Settings
      export GOROOT=/opt/go
@@ -393,7 +397,7 @@ Although [SDKMAN!](https://sdkman.io/) also allows to install a JDK, I prefer to
      ```
      **Note**: Changes made to a profile file may not apply until the next time you log into your computer. To apply the changes immediately, just run the shell commands directly or execute them from the profile using a command such as `source $HOME/.bashrc`.
 
-   6. Verify that you've installed Go by opening a command prompt and typing the following command:
+   7. Verify that you've installed Go by opening a command prompt and typing the following command:
       ```shell
       go version
       ```
