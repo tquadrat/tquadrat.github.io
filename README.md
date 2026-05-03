@@ -134,9 +134,9 @@ Generates a JavaBean from a *Configuration Bean Specification* that is meant as 
 Some helpers for the build process.
 
 ##### *[gitpublisher](https://tquadrat.github.io/gitpublisher)*
-For several reasons, I am using Subversion as the SCM for my projects. But as Git has been established as the standard for publishing projects, and GitHub and Bitbucket – the most often used platforms for publishing this kind of stuff – are uisng Git to keep the data, I decided that I need to make use of Git, too.
+For several reasons, I am using Subversion as the SCM for my projects. But as Git has been established as the standard for publishing projects, and GitHub and Bitbucket – the most often used platforms for publishing this kind of stuff – are using Git to keep the data, I decided that I need to make use of Git, too – at least for publishing my stuff.
 
-The Git Publisher Gradle plugin is the answer: it publishes the files of a project to a (remote) Git repository like Github or BitBucket.
+The Git Publisher Gradle plugin is the answer: it publishes the files of a project to a (remote) Git repository like Github or BitBucket during the build process.
 
 ### Libraries
 Most of my libraries are written as a module. When you use them within a project that does not use modules itself, you may have access to classes that are not meant to be visible outside the library itself. To give you some hints on what is part of the API and what is internal, I use the library [@APIGuardian](https://github.com/apiguardian-team/apiguardian). It provides the annotation `@API` with the attribute `status` that has the value `STABLE` for all classes that can be used safely. This status is inherited to all public elements of a class, although I marked the `static final` members of utility classes individually in most cases. So keep your fingers off from stuff that is marked as `DEPRECATED` or `INTERNAL`, and use stuff marked as `MAINTAINED` or `EXPERIMENTAL` with care.
