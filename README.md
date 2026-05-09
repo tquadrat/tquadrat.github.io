@@ -102,7 +102,7 @@ And I still prefer Subversion over Git as my SCM. This means that my repositorie
 
 My target operating system is Linux, and there both PCs and Raspberry PIs, although sometimes I do something for MacOS and/or Windows as well. Ok, when using Java, it usually does not matter which operating system you use, but when JavaFX comes into play (or local files …), this changes. So when some code does not run on your Windows box, it may be because I built it for Linux and never tested it elsewhere. But you can tell me, and I will try to fix it.
 
-I am a big friend of documentation, and in my opinion, most documentation should be placed as close to the code as possible. Therefore it is really helpful that I am also a big fan of JavaDoc (for Java) and related tools (for other languages). So at least for the tools and libraries, most if not all information you need to use them can be found in the JavaDoc reference documents – as said as close to the code as possible. General information is placed to the overview, in exceptions also in the package overview documents. If you miss something (or the documentation raises more questions than providing answers), please contact me.
+I am a big friend of documentation, and in my opinion, most documentation should be placed as close to the code as possible. Therefore it is really helpful that I am also a big fan of JavaDoc (for Java) and related tools (for other languages). So at least for the tools and libraries, most if not all information you need to use them can be found in the JavaDoc reference documents – as said as close to the code as possible. General information is placed to the overview, sometimes also in the package overview documents. If you miss something (or the documentation raises more questions than providing answers), please contact me.
 
 By the way, the generated JavaDoc does also provide links to the related source code in most cases.
 
@@ -113,7 +113,7 @@ A tool that may help with the training for some shooting competitions.
 #### [Bloodpressure Statistics](https://tquadrat.github.io/bloodpressure)
 A program for the statistical analysis of blood pressure values. Currently quite basic, and running in a terminal only, but I plan to build a GUI for it.
 
-Make your doctor happy and provide him some statistics for you blood pressure data – ok, that requires that you collect them first …
+Make your doctor happy and provide him some statistics about your blood pressure data – ok, that requires that you collect them first …
 
 ### Tools
 #### *[foundation-javadoc](https://tquadrat.github.io/foundation-javadoc)*
@@ -142,10 +142,10 @@ The Git Publisher Gradle plugin is the answer: it publishes the files of a proje
 Most of my libraries are written as a module. When you use them within a project that does not use modules itself, you may have access to classes that are not meant to be visible outside the library itself. To give you some hints on what is part of the API and what is internal, I use the library [@APIGuardian](https://github.com/apiguardian-team/apiguardian). It provides the annotation `@API` with the attribute `status` that has the value `STABLE` for all classes that can be used safely. This status is inherited to all public elements of a class, although I marked the `static final` members of utility classes individually in most cases. So keep your fingers off from stuff that is marked as `DEPRECATED` or `INTERNAL`, and use stuff marked as `MAINTAINED` or `EXPERIMENTAL` with care.
 
 #### The *Foundation* Libraries
-I collected a bunch of libraries under the header *Foundation*; a lot of that stuff is 20 years old now, always updated to the latest language version. The latest and most demanding change was to adoption of modularisation (JigSaw).
+I collected a bunch of libraries under the header *Foundation*; a lot of that stuff is more than 20 years old now, always updated to the latest language version. The latest and most demanding change so far was to adoption of modularisation (JigSaw).
 
 ##### *[foundation-base](https://tquadrat.github.io/foundation-base)*
-The base for all the other stuff, although it is not much useful without the *[foundation-util](https://tquadrat.github.io/foundation-util)* library. But for some tools this is not necessary or just to big, so I separated some functionality into this library.
+The base for all the other stuff, although it is not much useful without the *[foundation-util](https://tquadrat.github.io/foundation-util)* library. But for some tools *foundation-util* is not necessary or just to big, so I separated some functionality into this library.
 
 ##### *[foundation-util](https://tquadrat.github.io/foundation-util)*
 Add this library to make the most often used features available to your project.
@@ -154,7 +154,7 @@ Add this library to make the most often used features available to your project.
 Some tool classes that I use for my JUnit tests.
 
 ##### *[foundation-apbase](https://tquadrat.github.io/foundation-apbase)*
-The base for my annotation processors.
+The base for my annotation processors (see [above](#annotation-processors)).
 
 ##### *[foundation-i18n](https://tquadrat.github.io/foundation-i18n)*
 The definition of the annotations that allow *[foundation-i18n-ap](https://tquadrat.github.io/foundation-i18n-ap)* to generate resource bundles for the internationalisation of your application.
@@ -185,6 +185,12 @@ A library that allows the on-the-fly generation of a DynamicMBean, together with
 
 ##### *[foundation-sql](https://tquadrat.github.io/foundation-sql)*
 A library with database/JDBC related stuff.
+
+##### *[foundation-jsonbuilder](https://tquadrat.github.io/foundation-jsonbuilder)*
+A very simple and straight-forward JSON *building* tool, designed for a minimum footprint.
+
+##### *[foundation-perflog](https://tquadrat.github.io/foundation-perflog)*
+Defines a mean to easily integrate performance logging and monitoring to an application. The feature makes use of JMX to propagate the performance data. The project *[foundation-perflogremote](https://tquadrat.github.io/foundation-perflogremote)* provides the base for a remote client gathering the information provided by this library.
 
 ### Documents
 Some documents I worked on.
