@@ -1,20 +1,26 @@
 # Linux Stuff
 Some links, tips and tricks related to the Linux operating system, both for PCs (usually Ubuntu) and Raspberry Pis (usually Raspberry Pi OS). Some of the stuff is even useful for MacOS.
 
-  - [Basic Software](BasicSoftwareLinux.md)
+  - [Basic Software](BasicSoftwareLinux.md)\
     Software that I imagine to be useful on all the machines I am working with.
     
-  - [Installing Java](InstallingJavaOnLinux.md)
+  - [Installing Java](InstallingJavaOnLinux.md)\
     How to install Java on Ubuntu and Raspberry Pi OS (and on MacOS, too).
     
-  - [Installing IntelliJ IDEA](#installing-intellij-idea)
-  - [Installing Arduino IDE](#installing-arduino-ide)
+  - [Installing IntelliJ IDEA](InstallingIdeaOnLinux.md)\
+    How to install the IntelliJ IDEA IDE on Linux.
+    
+  - [Installing Arduino IDE](#installing-arduino-ide)\
+    How to install the Arduino IDE on Linux.
   
-  - [Installing Go](InstallingGoOnLinux.md)
+  - [Installing Go](InstallingGoOnLinux.md)\
     How to install Go on Ubuntu and Raspberry Pi OS.
     
-  - [Shell Stuff](#shell-stuff)
-  - [Integrate Applications into the GUI Desktop](#integrate-applications-into-the-gui-desktop)
+  - [Shell Enhancements](#shell-stuff)\
+    Enhance the capabilities of `bash` and Co.
+    
+  - [Integrate Applications into the GUI Desktop](#integrate-applications-into-the-gui-desktop)\
+    How to add an application to the start menu and the side bar.
   
-  - [Update the Gradle Wrapper](UpdateGradleWrapper.md)
+  - [Update the Gradle Wrapper](UpdateGradleWrapper.md)\
     How to update the Gradle wrapper.
