@@ -3,13 +3,13 @@ Information about the Java programming language, the Java eco-system, the JVM it
 
 ## Contents
 
- 1. **[The Java Language Specification](#the-java-language-specification)
- 1. **[JVM Languages](#jvm-languages)
- 1. **[AWT and Swing](#awt-and-swing)
- 1. **[Additional Libraries](#additional-libraries)
- 1. **[Debugging Tools](#debugging-tools)
+ 1. **[The Java Language Specification](#the-java-language-specification)**
+ 1. **[JVM Languages](#jvm-languages)**
+ 1. **[AWT and Swing](#awt-and-swing)**
+ 1. **[Additional Libraries](#additional-libraries)**
+ 1. **[Debugging Tools](#debugging-tools)**
  1. **[JShell Startup Configuration](#jshell-startup-configuration)**
- 2. **[Code Snippets](# code-snippets)
+ 2. **[Code Snippets](# code-snippets)**
 
 ## The Java Language Specification
 The "Java Language Specification" is the authoritative source for all questions concerning the Java programming language. See [here](https://docs.oracle.com/javase/specs/) for the various versions of the *JLS* and also the Java Virtual Machine Specifications for the various editions, beginning with Java 6. Both documents are available as PDF, too. See [here](http://titanium.cs.berkeley.edu/doc/java-langspec-2.0.pdf) for "The Java Language Specification, Second Edition", covering the language as it was before Java&nbsp;5.
