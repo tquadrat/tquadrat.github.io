@@ -14,18 +14,6 @@ The place where I collect stuff I am working on …
  - **[Documents](docs/Documents.md)**\
    Some documents I worked on.
 
- - **[Java Stuff](stuff/JavaStuff.md)**\
-   Some links, tips and tricks related to the Java ecosystem.
-   
- - **[Linux Stuff](stuff/LinuxStuff.md)**\
-   Some links, tips and tricks related to the Linux operating system, both for PCs and Raspberry Pis.
-
- - **[MacOS Stuff](stuff/MacStuff.md)**\
-   Some links, tips and tricks related to Apple's MacOS operating system.
-
- - **[Windows Stuff](stuff/WindowsStuff.md)**\
-   Some links, tips and tricks related to the Microsoft Windows operating system.
-
  - **[Gradle Hacks](stuff/gradleHacks.md)**\
    Some hacks that may help you with your daily work with Gradle.
 
