@@ -64,12 +64,14 @@ alias <name>="<command sequence>"
 Here are the aliases that I use regularly:
 ```bash
 alias histfind="history | grep $*"
-alias mdcd="source mdcd.sh"
 alias md="mkdir -p"
+alias mdcd="source mdcd.sh"
 ```
 
  - `histfind` searches a recently used command in the command history.
  
+ - `md` creates a new directory and all missing parent directories in one go.
+
  - `mdcd` creates a new directory and changes to it afterwards. This alias requires a shell script named `mdcd.sh` somwhere on the path.
  
    The script looks like this:
@@ -79,6 +81,4 @@ alias md="mkdir -p"
     mkdir -p "$1"
     eval cd "$1"
    ```
- 
- - `md` creates a new directory and all missing parent directory in one go.
  

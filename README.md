@@ -17,7 +17,7 @@ The place where I collect stuff I am working on …
  - **[Java Stuff](stuff/JavaStuff.md)**\
    Some links, tips and tricks related to the Java ecosystem.
    
- - **[Linux Stuff](stuff/LinuxStuff.md)**\ 
+ - **[Linux Stuff](stuff/LinuxStuff.md)**\
    Some links, tips and tricks related to the Linux operating system, both for PCs and Raspberry Pis.
 
  - **[MacOS Stuff](stuff/MacStuff.md)**\
