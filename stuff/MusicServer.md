@@ -18,7 +18,7 @@ As I want to install it on a Raspberry&nbsp;Pi, I used the description provided 
 
      I installed the latest Raspberry&nbsp;Pi&nbsp;OS, using the [Imager](https://www.raspberrypi.com/documentation/computers/getting-started.html#raspberry-pi-imager); at the time of writing (2024-08-04) this is the 64-bit Bookworm version, with Desktop and SSH enabled.
 
-     Next I followed the steps from the [*Linux Stuff* page](LinuxStuff.md) to install the [basic software](LinuxStuff.md#basic-software) and [Java](LinuxStuff.md#installing-java), and to configure the software.
+     Next I installed some basic software (described [here](BasicSoftwareLinux.md)) and Java (described [here](InstallingJavaOnLinux.md)) and then I configured the software.
 
      I switched off WiFi and assigned a fixed IP address to the music server.
 
@@ -63,7 +63,7 @@ As I want to install it on a Raspberry&nbsp;Pi, I used the description provided 
      ```
      
   8. Edit the configuration file `/etc/owntone.conf` to suit the individual needs. The line numbers may vary.
-     ```
+     ```text
      …
       10 general {
       11     # Username

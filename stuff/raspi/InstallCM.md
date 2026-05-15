@@ -1,5 +1,7 @@
 # Installing an Operating System on a Raspberry&nbsp;Pi Compute Module
 
+The Compute Modules are an alternative to a 'real' Raspberry&nbsp;Pi for the use in embedded systems. They lack the connectors of the Raspberry&nbsp;Pi, these needs to be provided by the host board. But they come with built-in eMMC memory (if not the lite version), so there is no need for an external MicroSD card for the operating system.
+
 Installing an operating system on a Compute Module (CM4 or CM5) differs fundamentally depending on whether you have the Lite version (without internal storage) or the eMMC version (with built-in storage). Let's start the first scenario using an SD card for storage. Although we are talking here mainly about CM5, the steps are generally the same for a CM4.
 
 ## Case A: Installation on CM5 Lite (via microSD card)

@@ -1,12 +1,10 @@
-# Raspberry&nbsp;Pi as a USB Device
-
-## Raspberry&nbsp;Pi&nbsp;Zero as a USB Keyboard
+# Raspberry&nbsp;Pi&nbsp;Zero as a USB Keyboard
 
 You can find different descriptions on how to configure a Raspberry&nbsp;Pi&nbsp;Zero as a virtual keyboard:
 
   - Random Nerd Tutorials: [Turn Your Raspberry Pi Zero into a USB Keyboard (HID)](https://randomnerdtutorials.com/raspberry-pi-zero-usb-keyboard-hid/)
 
-### These are the steps that I followed:
+## These are the steps that I followed:
 
   1. Install the latest version of the Raspberry&nbsp;Pi&nbsp;OS; this is written for the Bookworm releasae.
   2. Enable the Drivers and modules
@@ -82,9 +80,9 @@ You can find different descriptions on how to configure a Raspberry&nbsp;Pi&nbsp
         chmod 666 /dev/hidg0
         ```
 
-  4. Connect the Raspberry&ndsb;Pi&ndsb;Zero to the target computer
+  4. Connect the Raspberry&nbsp;Pi&nbsp;Zero to the target computer
     
-     After the Raspberry&ndsb;Pi&ndsb;Zero is now prepared, shut it down and connect it to the target computer through the micro USB port that is used for data and peripherals. That micro USB will both power the Pi&nbsp;Zero and act as a keyboard to the connected computer.
+     After the Raspberry&nbsp;Pi&nbsp;Zero is now prepared, shut it down and connect it to the target computer through the micro USB port that is used for data and peripherals. That micro USB will both power the Pi&nbsp;Zero and act as a keyboard to the connected computer.
 
    5. Test the new virtual keyboard
     
