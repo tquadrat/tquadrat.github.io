@@ -16,7 +16,9 @@ The "Java Language Specification" is the authoritative source for all questions 
 
 For the currently relevant versions, the respective links are in the sections for that version, below.
 
-Important changes were made in [Java&nbsp;5](http://www.inf.unibz.it/~calvanese/teaching/java-docs/5.0/guide/language/index.html) (Generics, enum, static imports …), [Java&nbsp;8](https://docs.oracle.com/javase/specs/jls/se8/html/index.html) (Lambdas, `java.time`, …), and [Java&nbsp;9](https://docs.oracle.com/javase/specs/jls/se9/html/index.html) (Modules, …).
+Important changes were made in [Java&nbsp;5](http://www.inf.unibz.it/~calvanese/teaching/java-docs/5.0/guide/language/index.html) (Generics, enum, static imports …), [Java&nbsp;8](https://docs.oracle.com/javase/specs/jls/se8/html/index.html) (Streams, Lambdas, `java.time`, …), and [Java&nbsp;9](https://docs.oracle.com/javase/specs/jls/se9/html/index.html) (Modules, …).
+
+Local Variable Type Inference (the `var`) was introduced with Java&nbsp;10, text blocks were finally added to the language with Java&nbsp;15. Java&nbsp;22 brought "`_`" as 'unnamed variable', although it was no longer allowed as a variable name already since Java&nbsp;9.
 
 ### Java 17
  - [JDK 17 Documentation](https://docs.oracle.com/en/java/javase/17/)
