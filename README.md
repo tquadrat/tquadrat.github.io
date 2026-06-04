@@ -1,4 +1,4 @@
-# tquadrat's Home page
+# tquadrat's Home page … ;-)
 
 The place where I collect stuff I am working on …
 
