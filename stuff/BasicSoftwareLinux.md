@@ -181,7 +181,7 @@ The server for the Remote Desktop protocol, mainly used on the Raspberry&nbsp;Pi
 ## Tex/Latex
 Tex/Latex is the preferred format for the creation of large documents. On Linux, this requires to install `texlive`, and my preferred editor for Tex/Latex is [`texmaker`](https://www.xm1math.net/texmaker/). The installation command for both is
 ```console
-sudo apt install texlive texmaker
+sudo apt install texlive biber texmaker
 ```
 See [here](#TexStuff.md) for some hints regarding Tex/Latex.
 
