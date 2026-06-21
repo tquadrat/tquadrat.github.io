@@ -8,7 +8,7 @@
 
 In a Windows batch file, %0, %1,…, %9 are the first, second, …, tenth parameter of the command line. The first parameter is the command itself. Suppose the batch file is `test.bat` that has the following command:
 
-```
+```bat
 @echo %0
 ```
 
