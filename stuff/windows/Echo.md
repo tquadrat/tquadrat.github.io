@@ -16,7 +16,7 @@ set /P =<output> < nul
 
 `<output>` is here the text that should be written.
 
-Basically, this work, also when writing to a file:
+Basically, this works, also when writing to a file:
 
 ```bat
 set /P =<output> < nul >> file
