@@ -47,16 +47,16 @@ tasks.named('startScripts') {
             var mainClassName = details.getApplicationName()
             var moduleEntryPoint = application.mainModule.get() + "/" + application.mainClass.get()
 
-            var classpath = new StringJoiner( "\n", "set /P =\"-classpath \" > %OPTIONS_FILE < nul\n", "\necho >> %OPTIONS_FILE\n" )
+            var classpath = new StringJoiner( "\n", "set /P =\"-classpath \" > %OPTIONS_FILE% < nul\n", "\necho. >> %OPTIONS_FILE%\n" )
             for( final var s : details.classpath )
             {
-                classpath.add( "set /P =\"%APP_HOME%/" + s + ";\" >> %OPTIONS_FILE < nul" )
+                classpath.add( "set /P =\"%APP_HOME%/" + s + ";\" >> %OPTIONS_FILE% < nul" )
             }
 
-            var modulepath = new StringJoiner( "\n", "set /P =\"--module-path \" >> %OPTIONS_FILE < nul\n", "\necho >> %OPTIONS_FILE\n" )
+            var modulepath = new StringJoiner( "\n", "set /P =\"--module-path \" >> %OPTIONS_FILE% < nul\n", "\necho. >> %OPTIONS_FILE%\n" )
             for( final var s : details.modulePath )
             {
-                modulepath.add( "set /P =\"%APP_HOME%/" + s + ";\" >> %OPTIONS_FILE < nul" )
+                modulepath.add( "set /P =\"%APP_HOME%/" + s + ";\" >> %OPTIONS_FILE% < nul" )
             }
 
             destination << """\
