@@ -20,5 +20,8 @@ The place where I collect stuff I am working on …
  - **[Database Lore](stuff/DatabaseLore.md)**\
    I barely know how to spell database correctly, so I am quite often surprised of details about RBDMS and other databases that others will not even notice as something remarkable.
 
+ - **[OpenDeck Macros](stuff/OpenDeckMacros.md)**\
+   I use Elgato Stream Deck devices on the main computers; while I use the original Elgato Software on Windows and MacOs, I use [OpenDeck](https://github.com/nekename/OpenDeck) on Linux. The configuration for OpenDeck is a little bit more basic than that for the Elgato Software, but gives you some additional flexibility. This document lists the macros that I used.
+
  - **Other Stuff**\
    … stay tuned!
