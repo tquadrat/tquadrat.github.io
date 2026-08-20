@@ -22,6 +22,7 @@ Suchen im aktuellen Dokument | ```[k(Control,p),k(Unicode('f')),k(Control,r)]```
 git pull | ```[t("git pull"),k(Return)]```
 git push | ```[t("git push"),k(Return)]```
 git status | ```[t("git status"),k(Return)]```
+---
 histfind | ```[t("histfind ")]```
 ls | ```[t("ls -la"),k(Return)]```
 jshell | ```[t("jshell"),k(Return)]```
