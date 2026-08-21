@@ -37,27 +37,29 @@
 ## Terminal
 | Beschreibung | Key Down | Key Up |
 | -------------| ---------| -------|
-| ctrl-c | ``[k(Control,p),k(Unicode('c')),k(Control,r)]```
+| _ctrl-c_ | ``[k(Control,p),k(Unicode('c')),k(Control,r)]```
 | Exit | ``[k(Control,p),k(Unicode('d')),k(Control,r)]```
 | Einfügen aus der Zwischenablage | ``[b(r),k(Unicode('i'))]``
 | Kopieren des markierten Textes | ```[b(r),k(Unicode('k'))]``` |
-| git commit | ```[t("git commit -a -m ")]```
-| git pull | ```[t("git pull"),k(Return)]```
-| git push | ```[t("git push"),k(Return)]```
-| git status | ```[t("git status"),k(Return)]```
-| histfind | ```[t("histfind ")]```
-| ls | ```[t("ls -la"),k(Return)]```
-| jshell | ```[t("jshell"),k(Return)]```
-| svn commit | ```[t("svn commit -m ")]```
-| svn status | ```[t("svn status"),k(Return)]```
-| svn update | ```[t("svn update"),k(Return)]```
+| `git commit` | ```[t("git commit -a -m ")]```
+| `git pull` | ```[t("git pull"),k(Return)]```
+| `git push` | ```[t("git push"),k(Return)]```
+| `git status` | ```[t("git status"),k(Return)]```
+| `histfind` | ```[t("histfind ")]```
+| `ls` | ```[t("ls -la"),k(Return)]```
+| `jshell` | ```[t("jshell"),k(Return)]```
+| `svn commit` | ```[t("svn commit -m ")]```
+| `svn status` | ```[t("svn status"),k(Return)]```
+| `svn update` | ```[t("svn update"),k(Return)]```
 
 ## Tex Maker
 | Beschreibung | Key Down | Key Up |
 | -------------| ---------| -------|
 | Ausschneiden des markierten Textes | ```[k(Control,p),k(Unicode('x')),k(Control,r)]``` |
+| `\autocite{}` | ```[t(" \\autocite{•} "),k(LeftArrow),k(LeftArrow),k(Shift,p),k(LeftArrow),k(Shift,r)]``` |
 | Datei öffnen | ```[k(Control,p),k(Unicode('o')),k(Control,r)]``` |
 | Einfügen aus der Zwischenablage | ```[k(Control,p),k(Unicode('v')),k(Control,r)]``` |
+| `\index{}` | ```[t("\\index{•} "),k(LeftArrow),k(LeftArrow),k(Shift,p),k(LeftArrow),k(Shift,r)]``` |
 | Kopieren des markierten Textes | ```[k(Control,p),k(Unicode('c')),k(Control,r)]``` |
 | Suchen im aktuellen Dokument | ```[k(Control,p),k(Unicode('f')),k(Control,r)]``` |
 | Vorherige Sitzung widerherstellen | ```[k(Control,p),k(Shift,p),k(F8),k(Shift,r),k(Control,r)]``` |
