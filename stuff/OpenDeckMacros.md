@@ -56,8 +56,10 @@
 | Beschreibung | Key Down | Key Up |
 | -------------| ---------| -------|
 | Ausschneiden des markierten Textes | ```[k(Control,p),k(Unicode('x')),k(Control,r)]``` |
+| Datei öffnen | ```[k(Control,p),k(Unicode('o')),k(Control,r)]``` |
 | Einfügen aus der Zwischenablage | ``[b(r),k(Unicode('i'))]``
 | Kopieren des markierten Textes | ```[k(Control,p),k(Unicode('c')),k(Control,r)]``` |
 | Suchen im aktuellen Dokument | ```[k(Control,p),k(Unicode('f')),k(Control,r)]``` |
+| Vorherige Sitzung widerherstellen | ```[k(Control,p),k(Shift,p),k(F8),k(Shift,r),k(Control,r)]``` |
 
 
