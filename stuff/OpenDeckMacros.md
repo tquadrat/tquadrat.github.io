@@ -58,9 +58,11 @@
 | Ausschneiden des markierten Textes | ```[k(Control,p),k(Unicode('x')),k(Control,r)]``` |
 | `\autocite{}` | ```[t(" \\autocite{•} "),k(LeftArrow),k(LeftArrow),k(Shift,p),k(LeftArrow),k(Shift,r)]``` |
 | Datei öffnen | ```[k(Control,p),k(Unicode('o')),k(Control,r)]``` |
+| Dokument erzeugen | ```[k(F1)]```|
 | Einfügen aus der Zwischenablage | ```[k(Control,p),k(Unicode('v')),k(Control,r)]``` |
 | `\index{}` | ```[t("\\index{•} "),k(LeftArrow),k(LeftArrow),k(Shift,p),k(LeftArrow),k(Shift,r)]``` |
 | Kopieren des markierten Textes | ```[k(Control,p),k(Unicode('c')),k(Control,r)]``` |
+| Öffne `Listing` Environment | ```[t("\\keeplisting{•}"),k(Return),t("\\begin{lstlisting}"),k(Return),k(Return),t("\\end{lstlisting}"),k(Return),k(UpArrow),k(UpArrow),k(End,Click)]``` |
 | Suchen im aktuellen Dokument | ```[k(Control,p),k(Unicode('f')),k(Control,r)]``` |
 | Vorherige Sitzung widerherstellen | ```[k(Control,p),k(Shift,p),k(F8),k(Shift,r),k(Control,r)]``` |
 
