@@ -4,6 +4,14 @@
 
 | Beschreibung | Key Down | Key Up |
 | -------------| ---------| -------|
+| Ausschneiden des markierten Textes | ```[k(Control,p),k(Unicode('x')),k(Control,r)]``` |
+| Einfügen aus der Zwischenablage | ```[k(Control,p),k(Unicode('v')),k(Control,r)]``` |
+| Kopieren des markierten Textes | ```[k(Control,p),k(Unicode('c')),k(Control,r)]``` |
+| Lesenzeichen verwalten | ```[k(Control,p).k(Shift,p),k(Unicode('o')),k)Shift,r),k(Control,r)]``` |
+| Neues Fenster | ```[k(Control,p),k(Unicode('n')),k(Control,r)]``` | |
+| Neues Fenster | ```[k(Control,p),k(Unicode('t')),k(Control,r)]``` | |
+| Seite vor | ```[k(Alt,p),k(RightArrow),k(Alt,r)]``` | |
+| Seite zurück | ```[k(Alt,p),k(LeftArrow),k(Alt,r)]``` | |
 | Suchen in der aktuellen Seite | ```[k(Control,p),k(Unicode('f')),k(Control,r)]``` | |
   
 ## Gedit
@@ -20,6 +28,8 @@
 ## IntelliJ IDEA 
 | Beschreibung | Key Down | Key Up |
 | -------------| ---------| -------|
+| Ausschneiden des markierten Textes | ```[k(Control,p),k(Unicode('x')),k(Control,r)]``` |
+| Einfügen aus der Zwischenablage | ```[k(Control,p),k(Unicode('v')),k(Control,r)]``` |
 | Kopieren des markierten Textes | ```[k(Control,p),k(Unicode('c')),k(Control,r)]``` |
 | Suchen im aktuellen Dokument | ```[k(Control,p),k(Unicode('f')),k(Control,r)]``` |
 | Suchen und Ersetzen im aktuellen Dokument | ```[k(Control,p),k(Unicode('r')),k(Control,r)]``` |
@@ -45,6 +55,8 @@
 ## Tex Maker
 | Beschreibung | Key Down | Key Up |
 | -------------| ---------| -------|
+| Ausschneiden des markierten Textes | ```[k(Control,p),k(Unicode('x')),k(Control,r)]``` |
+| Einfügen aus der Zwischenablage | ``[b(r),k(Unicode('i'))]``
 | Kopieren des markierten Textes | ```[k(Control,p),k(Unicode('c')),k(Control,r)]``` |
 | Suchen im aktuellen Dokument | ```[k(Control,p),k(Unicode('f')),k(Control,r)]``` |
 
