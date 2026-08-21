@@ -31,12 +31,16 @@
 | Exit | ``[k(Control,p),k(Unicode('d')),k(Control,r)]```
 | Einfügen aus der Zwischenablage | ``[b(r),k(Unicode('i'))]``
 | Kopieren des markierten Textes | ```[b(r),k(Unicode('k'))]``` |
+| git commit | ```[t("git commit -a -m ")]```
 | git pull | ```[t("git pull"),k(Return)]```
 | git push | ```[t("git push"),k(Return)]```
 | git status | ```[t("git status"),k(Return)]```
 | histfind | ```[t("histfind ")]```
 | ls | ```[t("ls -la"),k(Return)]```
 | jshell | ```[t("jshell"),k(Return)]```
+| svn commit | ```[t("svn commit -m ")]```
+| svn status | ```[t("svn status"),k(Return)]```
+| svn update | ```[t("svn update"),k(Return)]```
 
 ## Tex Maker
 | Beschreibung | Key Down | Key Up |
