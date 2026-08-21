@@ -7,7 +7,7 @@
 | Ausschneiden des markierten Textes | ```[k(Control,p),k(Unicode('x')),k(Control,r)]``` |
 | Einfügen aus der Zwischenablage | ```[k(Control,p),k(Unicode('v')),k(Control,r)]``` |
 | Kopieren des markierten Textes | ```[k(Control,p),k(Unicode('c')),k(Control,r)]``` |
-| Lesenzeichen verwalten | ```[k(Control,p).k(Shift,p),k(Unicode('o')),k)Shift,r),k(Control,r)]``` |
+| Lesenzeichen verwalten | ```[k(Control,p),k(Shift,p),k(Unicode('o')),k(Shift,r),k(Control,r)]``` |
 | Neues Fenster | ```[k(Control,p),k(Unicode('n')),k(Control,r)]``` | |
 | Neues Fenster | ```[k(Control,p),k(Unicode('t')),k(Control,r)]``` | |
 | Seite vor | ```[k(Alt,p),k(RightArrow),k(Alt,r)]``` | |
